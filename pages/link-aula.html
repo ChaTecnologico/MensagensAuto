@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Link de Aula</title>
+  <link rel="stylesheet" href="../css/style.css">
+</head>
+
+<body>
+  <div class="container">
+    <div class="header">
+      <a href="../index.html" class="btn-voltar">← Voltar</a>
+      <h1>Link da Aula</h1>
+      <button id="btn-tema" class="btn-secondary">🌓 Alternar Tema</button>
+    </div>
+    <div class="row-datetime">
+      <div>
+      <label for="dataAula">Data da Aula:</label>
+      <input type="date" id="dataAula">
+        </div>
+        <div>
+      <label for="instrutor">Instrutor(a):</label>
+      <select id="instrutor">
+        <option value="" disabled selected>Selecione o(a) instrutor(a)</option>
+      </select>
+          </div>
+          <div>
+      <label for="modulo">Módulo da Aula:</label>
+      <select id="modulo">
+        <option value="" disabled selected>Selecione o módulo</option>
+      </select>
+      </div>
+    </div>
+    <div class="btn-group">
+      <button onclick="gerarMensagem()">📝 Gerar Mensagem</button>
+      <button class="btn-secondary" onclick="copiarMensagem()">📋 Copiar Mensagem</button>
+      <button class="btn-tertiary" onclick="limparMensagem()">🧹 Limpar Mensagem</button>
+    </div>
+
+    <div id="mensagem-container" class="mensagem-container">
+      <textarea id="mensagem" placeholder="Sua mensagem será gerada aqui..." readonly></textarea>
+      <input type="hidden" id="linkMeet"> </div>
+  </div>
+
+  <script src="../js/common.js"></script>
+  <script src="../js/link-aula.js"></script>
+</body>
+
+</html>

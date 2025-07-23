@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Atividades para Casa</title>
+  <link rel="stylesheet" href="../css/style.css">
+</head>
+
+<body>
+  <div class="container">
+    <div class="header">
+      <a href="../index.html" class="btn-voltar">← Voltar</a>
+      <h1>Atividades para Casa</h1>
+      <button id="btn-tema" class="btn-secondary">🌓 Alternar Tema</button>
+    </div>
+
+    <label for="modulo">Selecione um módulo:</label>
+   <select id="modulo">
+  <option value="">Selecione um módulo...</option>
+  <option value="tecnologias">Ensino das Tecnologias Digitais</option>
+  <option value="tecnologiasAvancado">Ensino das Tecnologias Digitais - Avançado</option>
+  <option value="desenvolvimentoCognitivo">Desenvolvimento Cognitivo</option>
+  <option value="desenvolvimentoCognitivoAvancado">Desenvolvimento Cognitivo - Avançado</option>
+  <option value="fotografia">Fotografia Digital</option>
+  <option value="croche">Crochê</option>
+  <option value="culinaria">Culinária</option>
+  <option value="cultivoPlantas">Cultivo de Plantas</option>
+  <option value="danca">Dança</option>
+  <option value="desenhoPintura">Desenho e Pintura</option>
+  <option value="educacaoFinanceira">Educação Financeira</option>
+  <option value="ginastica">Ginástica</option>
+  <option value="ginasticaAvancado">Ginástica - Avançado</option>
+  <option value="nutricao">Nutrição</option>
+  <option value="redesSociais">Redes Sociais</option>
+  <option value="turismoDigital">Turismo Digital</option>
+  <option value="coral">Coral</option>
+</select>
+
+    <div id="aulas-container" class="aulas-container">
+      <p style="grid-column: 1 / -1; text-align: center; color: #888; margin: 20px;">
+        Escolha um módulo acima!
+      </p>
+    </div>
+
+    <div class="btn-group">
+      <button id="btn-gerar" onclick="gerarMensagem()">📝 Gerar Mensagem</button>
+      <button class="btn-secondary" onclick="copiarMensagem()">📋 Copiar Mensagem</button>
+      <button class="btn-tertiary" onclick="limparMensagem()">🧹 Limpar Mensagem</button>
+    </div>
+
+    <div id="mensagem-container" class="mensagem-container">
+      <textarea id="mensagem" placeholder="Sua mensagem será gerada aqui..." readonly></textarea>
+    </div>
+  </div>
+
+  <script src="../js/common.js"></script>
+  <script src="../js/atividades-casa.js"></script>
+</body>
+
+</html>
