@@ -109,7 +109,8 @@ function gerarMensagem() {
     if (aulaSelecionada === 'aula_01') {
       mensagem = `Sejam bem vindos ao projeto Chá Tecnológico e Social! 👴🏼👵🏻\n\n`;
       mensagem += `Hoje teremos a *AULA TREINO*, o nosso primeiro encontro online! Fique atento ao horário da aula:\n\n`;
-      mensagem += `⏰ *Terça-feira: 13:30*\n\n`;
+      mensagem += `🗓 ${diaSemana} - ${dataFormatada}\n`;
+      mensagem += `⏰ Hora: ${hora}\n`;
       mensagem += `O link será enviado aqui no grupo!\n\n`;
       mensagem += `📝Para relembrar o passo a passo de *como entrar na aula*, abra a sua *APOSTILA* e acompanhe a partir da página *12*.`;
     } else if (aulaSelecionada === 'aula_02_10') {
