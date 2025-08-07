@@ -88,13 +88,22 @@ function gerarMensagem() {
 
   const moduloNome = moduloSelect.selectedOptions[0].textContent;
   const aula = aulasAtuais[selecionada.value];
+  const multiplasAtividades = aula.atividade.includes(';');
 
   // Construir mensagem
   let mensagem = '*ATIVIDADE DE CASA* 🏡📝\n\n';
   mensagem += `*${moduloNome}*\n`;
   mensagem += 'Acesse o Ambiente Virtual de Aprendizagem e realize a atividade de hoje!\n\n';
   mensagem += `📱 _*AULA ${String(aula.numero).padStart(2, '0')}:* ${aula.titulo}_\n`;
-  mensagem += `✏️ *ATIVIDADE ${String(aula.numero).padStart(2, '0')}:* ${aula.atividade}\n\n`;
+  if (multiplasAtividades){
+    const atividades = aula.atividade.split(';').map((atividade, index) => {
+      return `✏️ *ATIVIDADE ${String(aula.numero).padStart(2, '0')} (PARTE ${index + 1}):* ${atividade.trim()}`;
+    }).join('\n');
+    mensagem += atividades + '\n\n';
+  }
+  else{
+    mensagem += `✏️ *ATIVIDADE ${String(aula.numero).padStart(2, '0')}:* ${aula.atividade}\n\n`;
+  }
 
   DOM.definirConteudo('mensagem', mensagem);
   DOM.mostrar('botoes', true);
