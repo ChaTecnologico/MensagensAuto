@@ -93,8 +93,8 @@ const MODULOS_DATA = {
       { numero: 2, titulo: 'O que é educação financeira?', atividade: 'Verdadeiro ou falso - educação financeira' },
       { numero: 3, titulo: 'Poder de Compra e Hábitos de Consumo', atividade: 'Atividade por associação; Lista de Compras' },
       { numero: 4, titulo: 'Uso do cartão de crédito', atividade: 'Perguntas sobre cartão de crédito' },
-      { numero: 5, titulo: 'Matemática e Finanças Pessoais', atividade: 'Inflação e compras' },
-      { numero: 6, titulo: 'Inflação e Compras', atividade: 'Calculando valor com desconto; Calculando juros' },
+      { numero: 5, titulo: 'Inflação e Compras', atividade: 'Inflação e compras' },
+      { numero: 6, titulo: 'Matemática e Finanças Pessoais', atividade: 'Calculando valor com desconto; Calculando juros' },
       { numero: 7, titulo: 'Como diminuir as dívidas', atividade: 'Como diminuir dívidas' },
       { numero: 8, titulo: 'Aprendendo a poupar', atividade: 'Sem Atividade' }
     ]
