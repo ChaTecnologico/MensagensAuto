@@ -102,8 +102,18 @@ function gerarMensagem() {
   
   selecionadas.forEach(selecionada => { // Iterar sobre as aulas selecionadas
     const aula = aulasAtuais[selecionada.value];
+    const multiplasAtividades = aula.atividade.includes(';');
+
     mensagem += `📱 _*AULA ${String(aula.numero).padStart(2, '0')}:* ${aula.titulo}_\n`;
-    mensagem += `✏️ *ATIVIDADE ${String(aula.numero).padStart(2, '0')}:* ${aula.atividade}\n\n`;
+    if (multiplasAtividades){
+      const atividades = aula.atividade.split(';').map((atividade, index) => {
+        return `✏️ *ATIVIDADE ${String(aula.numero).padStart(2, '0')} (PARTE ${index + 1}):* ${atividade.trim()}`;
+      }).join('\n');
+      mensagem += atividades + '\n\n';
+  }
+    else{
+      mensagem += `✏️ *ATIVIDADE ${String(aula.numero).padStart(2, '0')}:* ${aula.atividade}\n\n`;
+    }
   });
 
   mensagem += 'Acredito em você 💚';
