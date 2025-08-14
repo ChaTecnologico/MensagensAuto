@@ -96,7 +96,7 @@ const MODULOS_DATA = {
       { numero: 5, titulo: 'Inflação e Compras', atividade: 'Inflação e compras' },
       { numero: 6, titulo: 'Matemática e Finanças Pessoais', atividade: 'Calculando valor com desconto; Calculando juros' },
       { numero: 7, titulo: 'Como diminuir as dívidas', atividade: 'Perguntas - Como diminuir dívidas' },
-      { numero: 8, titulo: 'Aprendendo a poupar', atividade: 'Sem Atividade' }
+      { numero: 8, titulo: 'Aprendendo a poupar', atividade: 'Quiz - Aprendendo a poupar' }
     ]
   },
   fotografia: {
