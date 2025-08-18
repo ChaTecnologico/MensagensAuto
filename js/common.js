@@ -103,13 +103,13 @@ const MODULOS_DATA = {
     nome: 'Fotografia Digital',
     aulas: [
       { numero: 1, titulo: 'Apresentação', atividade: 'Apresentação do curso' },
-      { numero: 2, titulo: 'Introdução à Fotografia', atividade: 'Quiz - Introdução à Fotografia' },
-      { numero: 3, titulo: 'Desenvolvendo o olhar fotográfico', atividade: 'Desenvolvendo o Olhar Fotográfico' },
-      { numero: 4, titulo: 'Regra dos Terços', atividade: 'Regra dos terços (Quiz) - parte 01; Regra dos terços - parte 02' },
-      { numero: 5, titulo: 'Iluminação na fotografia com celular', atividade: 'Arrasta e solta sobre tipos de iluminação na fotografia' },
-      { numero: 6, titulo: 'Fotografia de retrato', atividade: 'Arrasta e solta sobre nomes de expressões e poses' },
-      { numero: 7, titulo: 'Fotografia de Paisagem', atividade: 'Jogo da Memória - Paisagens Cearenses' },
-      { numero: 8, titulo: 'Fotografia no dia a dia', atividade: 'Quiz sobre selfies' }
+      { numero: 2, titulo: 'Introdução à Fotografia', atividade: 'Quiz - Introdução à Fotografia; Pática - Minha Primeira Foto!' },
+      { numero: 3, titulo: 'Desenvolvendo o olhar fotográfico', atividade: 'Desenvolvendo o Olhar Fotográfico; Pática - Observando a Hora Dourada' },
+      { numero: 4, titulo: 'Regra dos Terços', atividade: 'Regra dos terços (Quiz) - parte 01; Regra dos terços - parte 02; Pática - Desafio Fotográfico de Observação' },
+      { numero: 5, titulo: 'Iluminação na fotografia com celular', atividade: 'Arrasta e solta sobre tipos de iluminação na fotografia; Pática - Desafio Fotográfico: Iluminação Natural x Artificial' },
+      { numero: 6, titulo: 'Fotografia de retrato', atividade: 'Arrasta e solta sobre nomes de expressões e poses; Pática - Desafio Fotográfico: Prática de Retratos' },
+      { numero: 7, titulo: 'Fotografia de Paisagem', atividade: 'Jogo da Memória - Paisagens Cearenses; Pática - Desafio Fotográfico I' },
+      { numero: 8, titulo: 'Fotografia no dia a dia', atividade: 'Quiz sobre selfies; Pática - Desafio Fotográfico II' }
     ]
   },
   ginastica: {
