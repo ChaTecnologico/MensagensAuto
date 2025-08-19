@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Lembretes de Novas Habilidades</title>
+  <link rel="stylesheet" href="../css/style.css">
+</head>
+
+<body>
+  <div class="container">
+    <div class="header">
+      <a href="../index.html" class="btn-voltar">← Voltar</a>
+      <h1>Novas Habilidades</h1>
+      <button id="btn-tema" class="btn-secondary">🌓 Alternar Tema</button>
+    </div>
+
+    <div class="form-container">
+      <div class="input-group">
+        <label for="curso">Selecione o Curso:</label>
+        <select id="curso">
+          <option value="">-- Escolha um curso --</option>
+        </select>
+      </div>
+    </div>
+
+    <div class="btn-group">
+      <button id="btn-gerar" onclick="gerarMensagem()">📝 Gerar Mensagem</button>
+      <button class="btn-secondary" onclick="copiarMensagem()">📋 Copiar Mensagem</button>
+      <button class="btn-tertiary" onclick="limparCampos()">🧹 Limpar Campos</button>
+    </div>
+
+    <div id="mensagem-container" class="mensagem-container">
+      <textarea id="mensagem" placeholder="Sua mensagem será gerada aqui..." rows="10" readonly></textarea>
+    </div>
+
+  </div>
+
+  
+  <script src="../js/novas-habilidades.js"></script>
+</body>
+
+</html>
