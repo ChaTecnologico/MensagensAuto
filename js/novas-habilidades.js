@@ -23,37 +23,8 @@ const EMOJIS = {
 
 // Objeto de dados de todos os módulos
 const MODULOS_DATA = {
-  "danca": {
-    nome: "Dança",
-    turmas: [
-      { numero: "01", data: "20 de Agosto de 2025", horario: "10:30", dia: "QUARTA-FEIRA" }],
-  },
-  "nutricao": {
-    nome: "Nutrição",
-    turmas: [
-      { numero: "05", data: "20 de Agosto de 2025", horario: "15:30", dia: "QUARTA-FEIRA" }],
-  },
-  "desenho-e-pintura": {
-    nome: "Desenho e Pintura",
-    turmas: [
-      { numero: "06", data: "20 de Agosto de 2025", horario: "13:30", dia: "QUARTA-FEIRA" }],
-  },
-  "cultivo-de-plantas": {
-    nome: "Cultivo de Plantas",
-    turmas: [
-      { numero: "06", data: "20 de Agosto de 2025", horario: "08:30", dia: "QUARTA-FEIRA" }],
-  },
-  "fotografia-digital": {
-    nome: "Fotografia Digital",
-    turmas: [
-      { numero: "06", data: "20 de Agosto de 2025", horario: "10:30", dia: 'QUARTA-FEIRA' }],
-  },
-  "redes-sociais": {
-    nome: "Redes Sociais",
-    turmas: [],
-  },
-  "culinária": {
-    nome: "Culinária",
+  "bordado": {
+    nome: "Bordado",
     turmas: [],
   },
   "canto-e-coral": {
@@ -64,9 +35,33 @@ const MODULOS_DATA = {
     nome: "Crochê",
     turmas: [],
   },
+  "culinária": {
+    nome: "Culinária",
+    turmas: [],
+  },
+  "cultivo-de-plantas": {
+    nome: "Cultivo de Plantas",
+    turmas: [
+      { numero: "06", data: "20 de Agosto de 2025", horario: "08:30", dia: "QUARTA-FEIRA" }],
+  },
+  "dança": {
+    nome: "Dança",
+    turmas: [
+      { numero: "01", data: "20 de Agosto de 2025", horario: "10:30", dia: "QUARTA-FEIRA" }],
+  },
   "dança-e-movimento ": {
     nome: "Dança e Movimento",
     turmas: [],
+  },
+  "desenho-e-pintura": {
+    nome: "Desenho e Pintura",
+    turmas: [
+      { numero: "06", data: "20 de Agosto de 2025", horario: "13:30", dia: "QUARTA-FEIRA" }],
+  },
+  "fotografia-digital": {
+    nome: "Fotografia Digital",
+    turmas: [
+      { numero: "06", data: "20 de Agosto de 2025", horario: "10:30", dia: 'QUARTA-FEIRA' }],
   },
   "ginástica-módulo-I": {
     nome: "Ginástica Módulo I",
@@ -76,16 +71,21 @@ const MODULOS_DATA = {
     nome: "Ginástica Módulo II",
     turmas: [],
   },
-  "turismo-digital": {
-    nome: "Turismo Digital",
+  "nutricao": {
+    nome: "Nutrição",
+    turmas: [
+      { numero: "05", data: "20 de Agosto de 2025", horario: "15:30", dia: "QUARTA-FEIRA" }],
+  },
+  "redes-sociais": {
+    nome: "Redes Sociais",
     turmas: [],
   },
   "teatro": {
     nome: "Teatro",
     turmas: [],
   },
-  "bordado": {
-    nome: "Bordado",
+  "turismo-digital": {
+    nome: "Turismo Digital",
     turmas: [],
   },
 };
