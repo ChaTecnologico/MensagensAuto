@@ -268,6 +268,10 @@ button:disabled {
   gap: 15px;
   margin-top: 20px;
 }
+/* faz o último ocupar as 2 colunas*/
+.cards-container > :last-child {
+  grid-column: 1 / -1;
+}
 
 .card {
   background: #ffffff;

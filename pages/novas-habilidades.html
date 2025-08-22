@@ -16,14 +16,26 @@
       <button id="btn-tema" class="btn-secondary">🌓 Alternar Tema</button>
     </div>
 
-    <div class="form-container">
-      <div class="input-group">
-        <label for="curso">Selecione o Curso:</label>
-        <select id="curso">
-          <option value="">-- Escolha um curso --</option>
-        </select>
-      </div>
-    </div>
+  <div class="form-container">
+  <div class="input-group">
+    <label for="curso">Selecione o Curso:</label>
+    <select id="curso">
+      <option value="">-- Escolha um curso --</option>
+    </select>
+  </div>
+
+  <div class="input-group">
+    <label for="turma" class="">Número da Turma:</label>
+    <select id="turma" disabled>
+        <option value="">-- Escolha a turma --</option>
+      </select>
+  </div>
+
+  <div class="input-group">
+    <label for="nome-aluno" class="">Nome(s) do(s) Aluno(s):</label>
+    <textarea id="nome-aluno" rows="5" placeholder="Digite os nomes dos alunos, um por linha"></textarea>
+  </div>
+</div>
 
     <div class="btn-group">
       <button id="btn-gerar" onclick="gerarMensagem()">📝 Gerar Mensagem</button>
@@ -31,8 +43,14 @@
       <button class="btn-tertiary" onclick="limparCampos()">🧹 Limpar Campos</button>
     </div>
 
-    <div id="mensagem-container" class="mensagem-container">
-      <textarea id="mensagem" placeholder="Sua mensagem será gerada aqui..." rows="10" readonly></textarea>
+    <div class="mensagem-area">
+      <div class="mensagem-container" id="mensagem-container">
+        <textarea id="mensagem-display" placeholder="Sua mensagem será gerada aqui..." rows="10" readonly></textarea>
+      </div>
+      <div id="navigation-buttons" style="display: none; justify-content: space-between; margin-top: 15px;">
+        <button id="btn-anterior" class="btn-secondary" onclick="mostrarMensagemAnterior()">← Anterior</button>
+        <button id="btn-proximo" class="btn-secondary" onclick="mostrarProximaMensagem()">Próxima →</button>
+      </div>
     </div>
 
   </div>
