@@ -1,6 +1,6 @@
 // JavaScript para Lembretes de Novas Habilidades
 
-//Variaveis globais
+//Variáveis globais
 let mensagensGeradas = [];
 let indiceMensagemAtual = 0;
 
@@ -115,7 +115,7 @@ const Clipboard = {
 // Inicialização
 document.addEventListener("DOMContentLoaded", function () {
   const cursoSelect = DOM.obter("curso");
-  const turmaSelect = DOM.obter("turma")
+  const turmaSelect = DOM.obter("turma");
 
   carregarCursos(cursoSelect);
 
@@ -141,7 +141,7 @@ function carregarTurmas(cursoKey) {
       turmaSelect.disabled = true; // Desabilita se nenhum curso válido for selecionado
     }
   }else{
-    turmaSelect.innerHTML = '<option value="">-- Sem tumar cadastradas --</option>';
+    turmaSelect.innerHTML = '<option value="">-- Sem turmas cadastradas --</option>';
   }
 }
 
