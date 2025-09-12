@@ -13,7 +13,8 @@ const MODULOS_DATA = {
       { numero: 6, titulo: 'Alimentos que fortalecem: conhecendo as proteínas', atividade: 'Encontre os ingrediente' },
       { numero: 7, titulo: 'Uso correto de medidores', atividade: 'Descubra o ingrediente misterioso' },
       { numero: 8, titulo: 'Sobremesas: substituições inteligentes', atividade: 'Preparando a mousse de maracujá' }
-    ]
+    ],
+    turmas: [],
   },
   cultivoPlantas: {
     nome: 'Cultivo de Plantas',
@@ -26,7 +27,9 @@ const MODULOS_DATA = {
       { numero: 6, titulo: 'Controle de pragas e doenças', atividade: 'Pragas e doenças nas plantas' },
       { numero: 7, titulo: 'Podas e Multiplicação de Plantas', atividade: 'Podas e multiplicação de plantas' },
       { numero: 8, titulo: 'Cultivo Sustentável', atividade: 'Cultivo sustentável' }
-    ]
+    ],
+    turmas: [
+      { numero: "06", data: "20 de Agosto de 2025", horario: "08:30", dia: "QUARTA-FEIRA" }],
   },
   danca: {
     nome: 'Dança',
@@ -40,7 +43,9 @@ const MODULOS_DATA = {
       { numero: 7, titulo: 'Puxa o fole sanfoneiro', atividade: '' },
       { numero: 8, titulo: 'Consciência corporal', atividade: '' },
       { numero: 9, titulo: 'Dança como expressão', atividade: '' }
-    ]
+    ],
+    turmas: [
+      { numero: "01", data: "20 de Agosto de 2025", horario: "10:30", dia: "QUARTA-FEIRA" }],
   },
   desenhoPintura: {
     nome: 'Desenho e Pintura',
@@ -53,7 +58,9 @@ const MODULOS_DATA = {
       { numero: 6, titulo: 'Pintura em Tela', atividade: 'Cores e Formas' },
       { numero: 7, titulo: 'Pintura em Telha', atividade: 'Jogo da memória' },
       { numero: 8, titulo: 'Pintura com Café', atividade: 'Encontre a imagem diferente' }
-    ]
+    ],
+    turmas: [
+      { numero: "06", data: "20 de Agosto de 2025", horario: "13:30", dia: "QUARTA-FEIRA" }],
   },
   desenvolvimentoCognitivo: {
     nome: 'Desenvolvimento Cognitivo',
@@ -110,7 +117,9 @@ const MODULOS_DATA = {
       { numero: 6, titulo: 'Fotografia de retrato', atividade: 'Arrasta e solta sobre nomes de expressões e poses; Pática - Desafio Fotográfico: Prática de Retratos \n🤔 *O que fazer na prática:* Posicione o modelo próximo a uma janela ou em ambiente bem iluminado, praticando diferentes ângulos e ajustes de luz.\nExplore expressões variadas e poses naturais ou criativas para capturar diferentes emoções.\nEssas fotos serão enviadas no meu individual(privado).' },
       { numero: 7, titulo: 'Fotografia de Paisagem', atividade: 'Jogo da Memória - Paisagens Cearenses; Pática - Desafio Fotográfico I \n🤔 *O que fazer na prática:* Fotografar uma paisagem urbana e, em seguida, uma natural. Observe as dicas e técnicas, fotografar na hora dourada, usar a regra dos terços e capturar o movimento em um ambiente urbano e em um cenário natural, como árvores balançando ao vento ou ondas quebrando.\nDica: você pode aproveitar viagens ou passeios para fazer essa atividade e também explorar sua cidade, locais com paisagens naturais. \nEssa foto será enviada no individual(privado) do instrutor.' },
       { numero: 8, titulo: 'Fotografia no dia a dia', atividade: 'Quiz sobre selfies; Pática - Desafio Fotográfico II \n🤔 *O que fazer na prática:* Observe as dicas e técnicas e faça uma selfie do jeito que você se sentir melhor, buscando aumentar sua autoconfiança e expressão pessoal.\nEssa foto será enviada no meu individual (privado).' }
-    ]
+    ],
+    turmas: [
+      { numero: "06", data: "20 de Agosto de 2025", horario: "10:30", dia: 'QUARTA-FEIRA' }],
   },
   ginastica: {
     nome: 'Ginástica',
@@ -123,7 +132,8 @@ const MODULOS_DATA = {
       { numero: 6, titulo: 'Pressão Arterial', atividade: 'Exercício e hipertensão' },
       { numero: 7, titulo: 'Saúde dos ossos e músculos', atividade: 'Conhecendo o corpo humano' },
       { numero: 8, titulo: 'Envelhecimento Saudável', atividade: 'Fórum - O que te motiva?' }
-    ]
+    ],
+    turmas: [],
   },
   ginasticaAvancado: {
     nome: 'Ginástica - Avançado',
@@ -136,7 +146,8 @@ const MODULOS_DATA = {
       { numero: 6, titulo: 'Exercícios de flexibilidade', atividade: '' },
       { numero: 7, titulo: 'Alterações posturais', atividade: 'Alinhando sua postura' },
       { numero: 8, titulo: 'Envelhecimento Saudável', atividade: 'Fórum - O que te motiva?' }
-    ]
+    ],
+    turmas: [],
   },
   nutricao: {
     nome: 'Nutrição',
@@ -149,7 +160,9 @@ const MODULOS_DATA = {
       { numero: 6, titulo: 'Hipertensão', atividade: 'Sintomas da hipertensão' },
       { numero: 7, titulo: 'Doença celíaca e intolerância à lactose', atividade: 'Encontre os alimentos' },
       { numero: 8, titulo: 'Alimentação e saúde mental', atividade: 'Sabores e benefícios' }
-    ]
+    ],
+    turmas: [
+      { numero: "05", data: "20 de Agosto de 2025", horario: "15:30", dia: "QUARTA-FEIRA" }],
   },
   tecnologias: {
     nome: 'Ensino das Tecnologias Digitais',
@@ -219,7 +232,8 @@ const MODULOS_DATA = {
       { numero: 6, titulo: 'Explorando o mundo com Google Arts & Culture', atividade: 'Turistando' },
       { numero: 7, titulo: 'Museus brasileiros', atividade: 'Turistando' },
       { numero: 8, titulo: 'Explorando a cultura Indígena', atividade: 'Jogo da Memória: Cultura Indigena' }
-    ]
+    ],
+    turmas: [],
   },
   redesSociais: {
     nome: 'Redes Sociais',
@@ -232,10 +246,11 @@ const MODULOS_DATA = {
       { numero: 6, titulo: 'Stories e interações no Instagram', atividade: 'Postando um story no Instagram' },
       { numero: 7, titulo: 'Conhecendo o TikTok', atividade: 'Verdadeiro ou faso - TikTok' },
       { numero: 8, titulo: 'Pinterest', atividade: 'Pesquisando no Pinterest' }
-    ]
+    ],
+    turmas: [],
   },
   croche: {
-    nome: 'CROCHÊ',
+    nome: 'Crochê',
     aulas: [
       { numero: 1, titulo: 'Apresentação', atividade: '' },
       { numero: 2, titulo: 'Pontos Básicos', atividade: '' },
@@ -245,11 +260,18 @@ const MODULOS_DATA = {
       { numero: 6, titulo: 'Porta garrafa de água', atividade: '' },
       { numero: 7, titulo: 'Porta pano de prato', atividade: '' },
       { numero: 8, titulo: 'Chaveiro de rosa', atividade: '' }
-    ]
+    ],
+    turmas: [],
   },
   coral: {
     nome: 'Coral',
-    aulas: []
+    aulas: [],
+    turmas: [],
+  },
+  teatro: {
+    nome: 'Teatro',
+    aulas: [],
+    turmas: [],
   }
 };
 
