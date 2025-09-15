@@ -8,18 +8,18 @@ let indiceMensagemAtual = 0;
 const EMOJIS = {
   "Redes Sociais": "📱",
   "Educação Financeira": "💰",
-  "Culinária": "🍒",
-  "Dança": "💃",
-  "Nutrição": "🍊",
-  "Crochê": "🧶",
+  Culinária: "🍒",
+  Dança: "💃",
+  Nutrição: "🍊",
+  Crochê: "🧶",
   "Desenho e Pintura": "🎨",
   "Cultivo de Plantas": "🪴",
   "Fotografia Digital": "📸",
-  "Ginástica": "🏃",
+  Ginástica: "🏃",
   "Ginástica - Avançado": "🏃",
-  "Coral": "🎤",
+  Coral: "🎤",
   "Turismo Digital": "🌎",
-  "Teatro": "🎭",
+  Teatro: "🎭",
 };
 
 // Inicialização
@@ -37,8 +37,8 @@ document.addEventListener("DOMContentLoaded", function () {
 function carregarTurmas(cursoKey) {
   const turmaSelect = DOM.obter("turma");
   turmaSelect.innerHTML = '<option value="">-- Escolha a turma --</option>'; // Limpa e adiciona a opção padrão
-  console.log(MODULOS_DATA[cursoKey].turmas)
-  if (MODULOS_DATA[cursoKey].turmas.length > 0){
+  console.log(MODULOS_DATA[cursoKey].turmas);
+  if (MODULOS_DATA[cursoKey].turmas.length > 0) {
     if (cursoKey && MODULOS_DATA[cursoKey] && MODULOS_DATA[cursoKey].turmas) {
       MODULOS_DATA[cursoKey].turmas.forEach((turma) => {
         const option = document.createElement("option");
@@ -50,8 +50,9 @@ function carregarTurmas(cursoKey) {
     } else {
       turmaSelect.disabled = true; // Desabilita se nenhum curso válido for selecionado
     }
-  }else{
-    turmaSelect.innerHTML = '<option value="">-- Sem turmas cadastradas --</option>';
+  } else {
+    turmaSelect.innerHTML =
+      '<option value="">-- Sem turmas cadastradas --</option>';
   }
 }
 
@@ -83,7 +84,7 @@ function capitalizeFirstLetter(str) {
 
 function trataNome(nomeCompleto) {
   // Quebra o nome completo em partes
-  
+
   const nomes = nomeCompleto.toLowerCase().split(" ");
 
   let nomeAlunoFormatado = capitalizeFirstLetter(nomes[0]); // Inicia com o primeiro nome
@@ -114,21 +115,26 @@ function trataNome(nomeCompleto) {
 function gerarMensagem() {
   const cursoKey = DOM.obter("curso").value;
   const turma = DOM.obter("turma").value;
-  
-  const nomesCompletos = DOM.obter("nome-aluno").value.split('\n').filter(nome => nome.trim() !== '');
+
+  const nomesCompletos = DOM.obter("nome-aluno")
+    .value.split("\n")
+    .filter((nome) => nome.trim() !== "");
 
   if (!cursoKey) {
     Utils.mostrarNotificacao("Por favor, selecione um curso.", "warning");
     return;
   }
-  
+
   if (!turma) {
     Utils.mostrarNotificacao("Por favor, selecione uma turma.", "warning");
     return;
   }
 
   if (nomesCompletos.length === 0) {
-    Utils.mostrarNotificacao("Por favor, digite os nomes dos alunos.", "warning");
+    Utils.mostrarNotificacao(
+      "Por favor, digite os nomes dos alunos.",
+      "warning"
+    );
     return;
   }
 
@@ -145,15 +151,15 @@ function gerarMensagem() {
   const cursoNome = detalhes.nome;
   const turmaDetalhes = detalhes.turmas.find((t) => t.numero === turma);
   const cursoEmoji = EMOJIS[cursoNome] || "✨";
-  
+
   // Limpa o array e o índice para uma nova geração
   mensagensGeradas = [];
   indiceMensagemAtual = 0;
 
   // Loop para gerar e armazenar uma mensagem para cada nome
-  nomesCompletos.forEach(nomeCompleto => {
+  nomesCompletos.forEach((nomeCompleto) => {
     const nomeAlunoFormatado = trataNome(nomeCompleto);
-      
+
     const mensagem = `Olá, ${nomeAlunoFormatado} 👋🏼
 
 Chegamos a etapa dos cursos das Novas Habilidades! Estou passando aqui para confirmar o horário das aulas do curso escolhido e informar a data da primeira aula!
@@ -175,7 +181,10 @@ Até lá 😉`;
   // Exibe a primeira mensagem gerada
   mostrarMensagem(0);
 
-  Utils.mostrarNotificacao("Mensagens geradas com sucesso! Use as setas para navegar.", "success");
+  Utils.mostrarNotificacao(
+    "Mensagens geradas com sucesso! Use as setas para navegar.",
+    "success"
+  );
 }
 
 // Copiar mensagem
@@ -200,12 +209,12 @@ function limparCampos() {
   DOM.obter("turma").value = "";
   DOM.obter("nome-aluno").value = "";
   DOM.obter("mensagem-display").value = "";
-  
+
   // Reseta o estado da navegação
   mensagensGeradas = [];
   indiceMensagemAtual = 0;
   const navButtonsContainer = DOM.obter("navigation-buttons");
-  navButtonsContainer.style.display = 'none';
+  navButtonsContainer.style.display = "none";
 
   Utils.mostrarNotificacao("Campos limpos com sucesso!", "success");
 }
@@ -213,16 +222,16 @@ function limparCampos() {
 function atualizarNavegacao() {
   const btnAnterior = DOM.obter("btn-anterior");
   const btnProximo = DOM.obter("btn-proximo");
-  
+
   btnAnterior.disabled = indiceMensagemAtual === 0;
   btnProximo.disabled = indiceMensagemAtual === mensagensGeradas.length - 1;
 
   // Mostra os botões de navegação apenas se houver mais de uma mensagem
   const navButtonsContainer = DOM.obter("navigation-buttons");
   if (mensagensGeradas.length > 1) {
-    navButtonsContainer.style.display = 'flex';
+    navButtonsContainer.style.display = "flex";
   } else {
-    navButtonsContainer.style.display = 'none';
+    navButtonsContainer.style.display = "none";
   }
 }
 

@@ -5,7 +5,10 @@ const MODULOS_DATA = {
   culinaria: {
     nome: "Culinária",
     aulas: [
-      { numero: 1, titulo: "Apresentação", atividade: "Sem Atividade" },
+      { 
+        numero: 1, 
+        titulo: "Apresentação", 
+        atividade: "Sem Atividade" },
       {
         numero: 2,
         titulo: "Uso dos temperos naturais",
@@ -52,7 +55,10 @@ const MODULOS_DATA = {
         titulo: "Apresentação",
         atividade: "Compartilhando nossas experiências com plantas",
       },
-      { numero: 2, titulo: "Tipos de Plantas", atividade: "Tipos de plantas" },
+      { 
+        numero: 2, 
+        titulo: "Tipos de Plantas", 
+        atividade: "Tipos de plantas" },
       {
         numero: 3,
         titulo: "Escolhendo a planta certa",
@@ -108,14 +114,46 @@ const MODULOS_DATA = {
         atividade:
           "Apresentar o curso, e como vão funcionar o formato das aulas, horários, combinados. Fazer a apresentação da instrutora e da turma.",
       },
-      { numero: 2, titulo: "Domínio sobre o corpo", atividade: "" },
-      { numero: 3, titulo: "Autoestima e dança", atividade: "" },
-      { numero: 4, titulo: "Agilidade e equilíbrio", atividade: "" },
-      { numero: 5, titulo: "Geração Jovem Guarda", atividade: "" },
-      { numero: 6, titulo: "Ritmos Nordestinos", atividade: "" },
-      { numero: 7, titulo: "Puxa o fole sanfoneiro", atividade: "" },
-      { numero: 8, titulo: "Consciência corporal", atividade: "" },
-      { numero: 9, titulo: "Dança como expressão", atividade: "" },
+      { 
+        numero: 2, 
+        titulo: "Domínio sobre o corpo", 
+        atividade: "" 
+      },
+      { 
+        numero: 3, 
+        titulo: "Autoestima e dança", 
+        atividade: "" 
+      },
+      { 
+        numero: 4, 
+        titulo: "Agilidade e equilíbrio", 
+        atividade: "" 
+      },
+      { 
+        numero: 5, 
+        titulo: "Geração Jovem Guarda", 
+        atividade: "" 
+      },
+      { 
+        numero: 6, 
+        titulo: "Ritmos Nordestinos", 
+        atividade: "" 
+      },
+      { 
+        numero: 7, 
+        titulo: "Puxa o fole sanfoneiro", 
+        atividade: "" 
+      },
+      { 
+        numero: 8, 
+        titulo: "Consciência corporal", 
+        atividade: "" 
+      },
+      { 
+        numero: 9, 
+        titulo: "Dança como expressão", 
+        atividade: "" 
+      },
     ],
     turmas: [
       {
@@ -129,7 +167,10 @@ const MODULOS_DATA = {
   desenhoPintura: {
     nome: "Desenho e Pintura",
     aulas: [
-      { numero: 1, titulo: "Apresentação", atividade: "Sem atividade" },
+      { 
+        numero: 1, 
+        titulo: "Apresentação", 
+        atividade: "Sem atividade" },
       {
         numero: 2,
         titulo: "Formas Geométricas",
@@ -140,14 +181,23 @@ const MODULOS_DATA = {
         titulo: "Desenhando Rostos",
         atividade: "Encontrando rostos",
       },
-      { numero: 4, titulo: "Paisagem", atividade: "Treinando o olhar" },
+      { 
+        numero: 4, 
+        titulo: "Paisagem", 
+        atividade: "Treinando o olhar" },
       {
         numero: 5,
         titulo: "Iniciação à Pintura",
         atividade: "Arte para a vida",
       },
-      { numero: 6, titulo: "Pintura em Tela", atividade: "Cores e Formas" },
-      { numero: 7, titulo: "Pintura em Telha", atividade: "Jogo da memória" },
+      { 
+        numero: 6, 
+        titulo: "Pintura em Tela", 
+        atividade: "Cores e Formas" },
+      { 
+        numero: 7, 
+        titulo: "Pintura em Telha", 
+        atividade: "Jogo da memória" },
       {
         numero: 8,
         titulo: "Pintura com Café",
@@ -166,7 +216,10 @@ const MODULOS_DATA = {
   desenvolvimentoCognitivo: {
     nome: "Desenvolvimento Cognitivo",
     aulas: [
-      { numero: 1, titulo: "Apresentação", atividade: "Sem Atividade" },
+      { 
+        numero: 1, 
+        titulo: "Apresentação", 
+        atividade: "Sem Atividade" },
       {
         numero: 2,
         titulo: "Mantendo a Mente Ativa",
@@ -197,9 +250,21 @@ const MODULOS_DATA = {
         titulo: "Linguagem e Comunicação",
         atividade: "Complete a frase",
       },
-      { numero: 8, titulo: "Emoções", atividade: "Identificando emoções" },
-      { numero: 9, titulo: "Motivação", atividade: "Motivação" },
-      { numero: 10, titulo: "Raciocínio Lógico", atividade: "Que horas são?" },
+      { 
+        numero: 8, 
+        titulo: "Emoções", 
+        atividade: "Identificando emoções" 
+      },
+      { 
+        numero: 9, 
+        titulo: "Motivação", 
+        atividade: "Motivação" 
+      },
+      { 
+        numero: 10, 
+        titulo: "Raciocínio Lógico", 
+        atividade: "Que horas são?" 
+      },
       {
         numero: 11,
         titulo: "Exercitando Raciocínio",
@@ -215,7 +280,10 @@ const MODULOS_DATA = {
         titulo: "Autoconhecimento",
         atividade: "Aprendendo a se conhecer melhor",
       },
-      { numero: 2, titulo: "Autoestima", atividade: "Identificando frases" },
+      { 
+        numero: 2, 
+        titulo: "Autoestima", 
+        atividade: "Identificando frases" },
       {
         numero: 3,
         titulo: "Como elevar a autoestima",
@@ -261,7 +329,10 @@ const MODULOS_DATA = {
   educacaoFinanceira: {
     nome: "Educação Financeira",
     aulas: [
-      { numero: 1, titulo: "Apresentação", atividade: "Sem Atividade" },
+      { 
+        numero: 1, 
+        titulo: "Apresentação", 
+        atividade: "Sem Atividade" },
       {
         numero: 2,
         titulo: "O que é educação financeira?",
@@ -310,7 +381,10 @@ const MODULOS_DATA = {
   fotografia: {
     nome: "Fotografia Digital",
     aulas: [
-      { numero: 1, titulo: "Apresentação", atividade: "Apresentação do curso" },
+      { 
+        numero: 1, 
+        titulo: "Apresentação", 
+        atividade: "Apresentação do curso" },
       {
         numero: 2,
         titulo: "Introdução à Fotografia",
@@ -372,8 +446,14 @@ const MODULOS_DATA = {
   ginastica: {
     nome: "Ginástica",
     aulas: [
-      { numero: 1, titulo: "Apresentação", atividade: "Sem atividade" },
-      { numero: 2, titulo: "Questionário PAR-Q", atividade: "Teste PAR-Q" },
+      { 
+        numero: 1, 
+        titulo: "Apresentação", 
+        atividade: "Sem atividade" },
+      { 
+        numero: 2, 
+        titulo: "Questionário PAR-Q", 
+        atividade: "Teste PAR-Q" },
       {
         numero: 3,
         titulo: "Comportamento Sedentário",
@@ -417,7 +497,10 @@ const MODULOS_DATA = {
   ginasticaAvancado: {
     nome: "Ginástica - Avançado",
     aulas: [
-      { numero: 1, titulo: "Apresentação", atividade: "Sem atividade" },
+      { 
+        numero: 1, 
+        titulo: "Apresentação", 
+        atividade: "Sem atividade" },
       {
         numero: 2,
         titulo: "Composição Corporal",
@@ -438,7 +521,10 @@ const MODULOS_DATA = {
         titulo: "Exercícios de coordenação e equilíbrio",
         atividade: "Eu nunca",
       },
-      { numero: 6, titulo: "Exercícios de flexibilidade", atividade: "" },
+      { 
+        numero: 6, 
+        titulo: "Exercícios de flexibilidade", 
+        atividade: "" },
       {
         numero: 7,
         titulo: "Alterações posturais",
@@ -455,7 +541,10 @@ const MODULOS_DATA = {
   nutricao: {
     nome: "Nutrição",
     aulas: [
-      { numero: 1, titulo: "Apresentação", atividade: "Sem atividade" },
+      { 
+        numero: 1, 
+        titulo: "Apresentação", 
+        atividade: "Sem atividade" },
       {
         numero: 2,
         titulo: "A importância da alimentação saudável",
@@ -471,7 +560,10 @@ const MODULOS_DATA = {
         titulo: "Temperos industrializados e naturais",
         atividade: "Lendo os rótulos",
       },
-      { numero: 5, titulo: "Diabetes", atividade: "Mito ou verdade?" },
+      { 
+        numero: 5, 
+        titulo: "Diabetes", 
+        atividade: "Mito ou verdade?" },
       {
         numero: 6,
         titulo: "Hipertensão",
@@ -500,13 +592,19 @@ const MODULOS_DATA = {
   tecnologias: {
     nome: "Ensino das Tecnologias Digitais",
     aulas: [
-      { numero: 1, titulo: "Google Meet", atividade: "Não possui" },
+      { 
+        numero: 1, 
+        titulo: "Google Meet", 
+        atividade: "Não possui" },
       {
         numero: 2,
         titulo: "Introdução aos Conteúdos e Regras de Convivência",
         atividade: "Não possui",
       },
-      { numero: 3, titulo: "Conhecendo o Whatsapp", atividade: "Não possui" },
+      { 
+        numero: 3, 
+        titulo: "Conhecendo o Whatsapp", 
+        atividade: "Não possui" },
       {
         numero: 4,
         titulo: "Ambiente Virtual de Aprendizagem",
@@ -532,7 +630,10 @@ const MODULOS_DATA = {
         titulo: "Contatos e Ligações",
         atividade: "Salvando um contato",
       },
-      { numero: 9, titulo: "Câmera e Galeria", atividade: "Jogo da memória" },
+      { 
+        numero: 9, 
+        titulo: "Câmera e Galeria", 
+        atividade: "Jogo da memória" },
       {
         numero: 10,
         titulo: "Pesquisas na Internet",
@@ -585,7 +686,10 @@ const MODULOS_DATA = {
         titulo: "Transportes por aplicativos",
         atividade: "Solicitando uma corrida",
       },
-      { numero: 20, titulo: "QR Code", atividade: "QR CODE" },
+      { 
+        numero: 20, 
+        titulo: "QR Code", 
+        atividade: "QR CODE" },
       {
         numero: 21,
         titulo: "Segurança digital",
@@ -642,7 +746,10 @@ const MODULOS_DATA = {
         titulo: "Tela inicial dos dispositivos móveis",
         atividade: "Pesquisando um aplicativo",
       },
-      { numero: 4, titulo: "Câmera e galeria", atividade: "Ligando a flash" },
+      { 
+        numero: 4, 
+        titulo: "Câmera e galeria", 
+        atividade: "Ligando a flash" },
       {
         numero: 5,
         titulo: "Explorando o WhatsApp",
@@ -658,8 +765,14 @@ const MODULOS_DATA = {
         titulo: "Pesquisas na internet",
         atividade: "Fechando abas do Google Chrome",
       },
-      { numero: 8, titulo: "Google Lens", atividade: "O que é o Google Lens?" },
-      { numero: 9, titulo: "Google Maps", atividade: "O que é o Google Maps?" },
+      { 
+        numero: 8, 
+        titulo: "Google Lens", 
+        atividade: "O que é o Google Lens?" },
+      { 
+        numero: 9, 
+        titulo: "Google Maps", 
+        atividade: "O que é o Google Maps?" },
       {
         numero: 10,
         titulo: "YouTube",
@@ -750,7 +863,10 @@ const MODULOS_DATA = {
         titulo: "Explorando o mundo com Google Arts & Culture",
         atividade: "Turistando",
       },
-      { numero: 7, titulo: "Museus brasileiros", atividade: "Turistando" },
+      { 
+        numero: 7, 
+        titulo: "Museus brasileiros", 
+        atividade: "Turistando" },
       {
         numero: 8,
         titulo: "Explorando a cultura Indígena",
@@ -762,7 +878,10 @@ const MODULOS_DATA = {
   redesSociais: {
     nome: "Redes Sociais",
     aulas: [
-      { numero: 1, titulo: "Apresentação", atividade: "Sem atividade" },
+      { 
+        numero: 1, 
+        titulo: "Apresentação", 
+        atividade: "Sem atividade" },
       {
         numero: 2,
         titulo: "Grupos do Whatsapp",
@@ -793,7 +912,10 @@ const MODULOS_DATA = {
         titulo: "Conhecendo o TikTok",
         atividade: "Verdadeiro ou faso - TikTok",
       },
-      { numero: 8, titulo: "Pinterest", atividade: "Pesquisando no Pinterest" },
+      { 
+        numero: 8, 
+        titulo: "Pinterest", 
+        atividade: "Pesquisando no Pinterest" },
     ],
     turmas: [
       {
@@ -807,14 +929,46 @@ const MODULOS_DATA = {
   croche: {
     nome: "Crochê",
     aulas: [
-      { numero: 1, titulo: "Apresentação", atividade: "" },
-      { numero: 2, titulo: "Pontos Básicos", atividade: "" },
-      { numero: 3, titulo: "Brinco Flor", atividade: "" },
-      { numero: 4, titulo: "Phone Strap", atividade: "" },
-      { numero: 5, titulo: "Porta celular", atividade: "" },
-      { numero: 6, titulo: "Porta garrafa de água", atividade: "" },
-      { numero: 7, titulo: "Porta pano de prato", atividade: "" },
-      { numero: 8, titulo: "Chaveiro de rosa", atividade: "" },
+      { 
+        numero: 1, 
+        titulo: "Apresentação", 
+        atividade: "" 
+      },
+      { 
+        numero: 2, 
+        titulo: "Pontos Básicos", 
+        atividade: "" 
+      },
+      { 
+        numero: 3, 
+        titulo: "Brinco Flor", 
+        atividade: "" 
+      },
+      { 
+        numero: 4, 
+        titulo: "Phone Strap", 
+        atividade: "" 
+      },
+      { 
+        numero: 5, 
+        titulo: "Porta celular", 
+        atividade: "" 
+      },
+      { 
+        numero: 6, 
+        titulo: "Porta garrafa de água", 
+        atividade: "" 
+      },
+      { 
+        numero: 7, 
+        titulo: "Porta pano de prato", 
+        atividade: "" 
+      },
+      { 
+        numero: 8, 
+        titulo: "Chaveiro de rosa", 
+        atividade: "" 
+      },
     ],
     turmas: [
       {
