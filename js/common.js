@@ -407,7 +407,7 @@ const MODULOS_DATA = {
     ],
     turmas: [
       {
-        numero: "07",
+        numero: "04",
         data: "18 de Setembro de 2025",
         horario: "13:30",
         dia: "QUINTA-FEIRA",
