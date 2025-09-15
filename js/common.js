@@ -117,42 +117,37 @@ const MODULOS_DATA = {
       { 
         numero: 2, 
         titulo: "Domínio sobre o corpo", 
-        atividade: "" 
+        atividade: "Conhecimento sobre o corpo" 
       },
       { 
         numero: 3, 
         titulo: "Autoestima e dança", 
-        atividade: "" 
+        atividade: "Dançar e recuperar a autoestima" 
       },
       { 
         numero: 4, 
         titulo: "Agilidade e equilíbrio", 
-        atividade: "" 
+        atividade: "Verdadeiro ou Falso sobre seu corpo" 
       },
       { 
         numero: 5, 
         titulo: "Geração Jovem Guarda", 
-        atividade: "" 
+        atividade: "Movimento cultural da Jovem Guarda" 
       },
       { 
         numero: 6, 
         titulo: "Ritmos Nordestinos", 
-        atividade: "" 
+        atividade: "Quebra Cabeça - Cultura Nordestina" 
       },
       { 
         numero: 7, 
         titulo: "Puxa o fole sanfoneiro", 
-        atividade: "" 
+        atividade: "Puxa o fole sanfoneiro" 
       },
       { 
         numero: 8, 
         titulo: "Consciência corporal", 
-        atividade: "" 
-      },
-      { 
-        numero: 9, 
-        titulo: "Dança como expressão", 
-        atividade: "" 
+        atividade: "Construindo a Consciência Corporal" 
       },
     ],
     turmas: [
