@@ -131,11 +131,8 @@ function gerarMensagem() {
   }
 
   if (nomesCompletos.length === 0) {
-    Utils.mostrarNotificacao(
-      "Por favor, digite os nomes dos alunos.",
-      "warning"
-    );
-    return;
+    nomesCompletos.push("Aluno(a)"); 
+    //return;
   }
 
   const detalhes = MODULOS_DATA[cursoKey];
