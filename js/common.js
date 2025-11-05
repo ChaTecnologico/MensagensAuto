@@ -757,7 +757,7 @@ const MODULOS_DATA = {
         tipo: "itinerante",
         numero: "01",
         data: "06 de Novembro de 2025",
-        horario: "10:30",
+        horario: "15:30",
         dia: "QUINTA-FEIRA",
       },
     ],
