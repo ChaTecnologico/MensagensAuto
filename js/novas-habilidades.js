@@ -51,6 +51,7 @@ function carregarCursos() {
     "tecnologiasAvancado",
     "desenvolvimentoCognitivo",
     "desenvolvimentoCognitivoAvancado",
+    "coral",
   ];
 
   const projeto = document.getElementById("projeto").value;
