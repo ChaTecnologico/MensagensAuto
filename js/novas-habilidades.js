@@ -8,18 +8,18 @@ let indiceMensagemAtual = 0;
 const EMOJIS = {
   "Redes Sociais": "📱",
   "Educação Financeira": "💰",
-  Culinária: "🍒",
-  Dança: "💃",
-  Nutrição: "🍊",
-  Crochê: "🧶",
+  "Culinária": "🍒",
+  "Dança": "💃",
+  "Nutrição": "🍊",
+  "Crochê": "🧶",
   "Desenho e Pintura": "🎨",
   "Cultivo de Plantas": "🪴",
   "Fotografia Digital": "📸",
-  Ginástica: "🏃",
+  "Ginástica": "🏃",
   "Ginástica - Avançado": "🏃",
-  Coral: "🎤",
+  "Coral": "🎤",
   "Turismo Digital": "🌎",
-  Teatro: "🎭",
+  "Teatro": "🎭",
 };
 
 // Inicialização
