@@ -244,6 +244,8 @@ function limparCampos() {
   DOM.obter("turma").value = "";
   DOM.obter("nome-aluno").value = "";
   DOM.obter("mensagem-display").value = "";
+  DOM.obter("projeto").value = "";
+  
 
   // Reseta o estado da navegação
   mensagensGeradas = [];
