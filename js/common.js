@@ -92,12 +92,14 @@ const MODULOS_DATA = {
     ],
     turmas: [
       {
+        tipo: "municipal",
         numero: "06",
         data: "20 de Agosto de 2025",
         horario: "08:30",
         dia: "QUARTA-FEIRA",
       },
       {
+        tipo: "municipal",
         numero: "07",
         data: "18 de Setembro de 2025",
         horario: "10:30",
@@ -152,6 +154,7 @@ const MODULOS_DATA = {
     ],
     turmas: [
       {
+        tipo: "municipal",
         numero: "01",
         data: "20 de Agosto de 2025",
         horario: "10:30",
@@ -201,10 +204,18 @@ const MODULOS_DATA = {
     ],
     turmas: [
       {
+        tipo: "municipal",
         numero: "06",
         data: "20 de Agosto de 2025",
         horario: "13:30",
         dia: "QUARTA-FEIRA",
+      },
+      {
+        tipo: "itinerante",
+        numero: "01",
+        data: "06 de Novembro de 2025",
+        horario: "13:30",
+        dia: "QUINTA-FEIRA",
       },
     ],
   },
@@ -366,9 +377,17 @@ const MODULOS_DATA = {
     ],
     turmas: [
       {
+        tipo: "municipal",
         numero: "04",
         data: "18 de Setembro de 2025",
         horario: "10:30",
+        dia: "QUINTA-FEIRA",
+      },
+      {
+        tipo: "itinerante",
+        numero: "01",
+        data: "06 de Novembro de 2025",
+        horario: "13:30",
         dia: "QUINTA-FEIRA",
       },
     ],
@@ -425,15 +444,24 @@ const MODULOS_DATA = {
     ],
     turmas: [
       {
+        tipo: "municipal",
         numero: "06",
         data: "20 de Agosto de 2025",
         horario: "10:30",
         dia: "QUARTA-FEIRA",
       },
       {
+        tipo: "municipal",
         numero: "07",
         data: "18 de Setembro de 2025",
         horario: "13:30",
+        dia: "QUINTA-FEIRA",
+      },
+      {
+        tipo: "itinerante",
+        numero: "01",
+        data: "06 de Novembro de 2025",
+        horario: "10:30",
         dia: "QUINTA-FEIRA",
       },
     ],
@@ -482,8 +510,16 @@ const MODULOS_DATA = {
     ],
     turmas: [
       {
+        tipo: "municipal",
         numero: "04",
         data: "18 de Setembro de 2025",
+        horario: "13:30",
+        dia: "QUINTA-FEIRA",
+      },
+      {
+        tipo: "itinerante",
+        numero: "01",
+        data: "06 de Novembro de 2025",
         horario: "13:30",
         dia: "QUINTA-FEIRA",
       },
@@ -577,6 +613,7 @@ const MODULOS_DATA = {
     ],
     turmas: [
       {
+        tipo: "municipal",
         numero: "05",
         data: "20 de Agosto de 2025",
         horario: "15:30",
@@ -914,9 +951,17 @@ const MODULOS_DATA = {
     ],
     turmas: [
       {
+        tipo: "municipal",
         numero: "07",
         data: "18 de Setembro de 2025",
         horario: "13:30",
+        dia: "QUINTA-FEIRA",
+      },
+      {
+        tipo: "itinerante",
+        numero: "01",
+        data: "06 de Novembro de 2025",
+        horario: "10:30",
         dia: "QUINTA-FEIRA",
       },
     ],
@@ -967,9 +1012,17 @@ const MODULOS_DATA = {
     ],
     turmas: [
       {
+        tipo: "municipal",
         numero: "04",
         data: "18 de Setembro de 2025",
         horario: "10:30",
+        dia: "QUINTA-FEIRA",
+      },
+      {
+        tipo: "itinerante",
+        numero: "01",
+        data: "06 de Novembro de 2025",
+        horario: "08:30",
         dia: "QUINTA-FEIRA",
       },
     ],

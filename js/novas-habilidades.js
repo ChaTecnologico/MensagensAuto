@@ -26,6 +26,7 @@ const EMOJIS = {
 document.addEventListener("DOMContentLoaded", function () {
   const cursoSelect = DOM.obter("curso");
   const turmaSelect = DOM.obter("turma");
+  const projetoSelect = DOM.obter("projeto");
 
   carregarCursos(cursoSelect);
 
@@ -34,48 +35,77 @@ document.addEventListener("DOMContentLoaded", function () {
   });
 });
 
-function carregarTurmas(cursoKey) {
-  const turmaSelect = DOM.obter("turma");
-  turmaSelect.innerHTML = '<option value="">-- Escolha a turma --</option>'; // Limpa e adiciona a opção padrão
-  console.log(MODULOS_DATA[cursoKey].turmas);
-  if (MODULOS_DATA[cursoKey].turmas.length > 0) {
-    if (cursoKey && MODULOS_DATA[cursoKey] && MODULOS_DATA[cursoKey].turmas) {
-      MODULOS_DATA[cursoKey].turmas.forEach((turma) => {
-        const option = document.createElement("option");
-        option.value = turma.numero;
-        option.textContent = `Turma ${turma.numero}`;
-        turmaSelect.appendChild(option);
-      });
-      turmaSelect.disabled = false; // Habilita o campo de turma
-    } else {
-      turmaSelect.disabled = true; // Desabilita se nenhum curso válido for selecionado
-    }
-  } else {
-    turmaSelect.innerHTML =
-      '<option value="">-- Sem turmas cadastradas --</option>';
+// Quando o projeto é escolhido → carregar cursos válidos
+DOM.obter("projeto").addEventListener("change", carregarCursos);
+
+// Quando o curso é escolhido → carregar turmas compatíveis
+DOM.obter("curso").addEventListener("change", carregarTurmas);
+
+
+/* ================================
+    CARREGAR CURSOS
+================================ */
+function carregarCursos() {
+  const projeto = document.getElementById("projeto").value;
+  const selectCurso = document.getElementById("curso");
+  const selectTurma = document.getElementById("turma");
+
+  // Limpa selects
+  selectCurso.innerHTML = `<option value="">-- Escolha um curso --</option>`;
+  selectTurma.innerHTML = `<option value="">-- Escolha a turma --</option>`;
+  selectTurma.disabled = true;
+
+  // Se não escolher projeto → desabilita curso
+  if (!projeto) {
+    selectCurso.disabled = true;
+    return;
   }
+
+  // Carrega apenas cursos que contenham turmas compatíveis
+  for (const curso in MODULOS_DATA) {
+    const turmas = MODULOS_DATA[curso].turmas || [];
+    const possuiCompatível = turmas.some(t => t.tipo === projeto);
+
+    if (possuiCompatível) {
+      const opt = document.createElement("option");
+      opt.value = curso;
+      opt.textContent = MODULOS_DATA[curso].nome;
+      selectCurso.appendChild(opt);
+    }
+  }
+
+  selectCurso.disabled = false;
 }
 
-function carregarCursos(selectElement) {
-  const cursosExcluidos = [
-    "Ensino das Tecnologias Digitais",
-    "Ensino das Tecnologias Digitais - Avançado",
-    "Desenvolvimento Cognitivo",
-    "Desenvolvimento Cognitivo - Avançado",
-  ];
 
-  // Carrega todos os cursos disponíveis
-  for (const key in MODULOS_DATA) {
-    if (Object.prototype.hasOwnProperty.call(MODULOS_DATA, key)) {
-      const cursoNome = MODULOS_DATA[key].nome;
-      if (!cursosExcluidos.includes(cursoNome)) {
-        const option = document.createElement("option");
-        option.value = key;
-        option.textContent = cursoNome;
-        selectElement.appendChild(option);
-      }
-    }
+/* ================================
+    CARREGAR TURMAS
+================================ */
+function carregarTurmas() {
+  const projeto = document.getElementById("projeto").value;
+  const curso = document.getElementById("curso").value;
+  const selectTurma = document.getElementById("turma");
+
+  selectTurma.innerHTML = `<option value="">-- Escolha a turma --</option>`;
+
+  if (!curso || !MODULOS_DATA[curso]) {
+    selectTurma.disabled = true;
+    return;
   }
+
+  const turmas = MODULOS_DATA[curso].turmas || [];
+
+  const turmasFiltradas = turmas.filter(t => t.tipo === projeto);
+  console.log(turmasFiltradas);
+
+  turmasFiltradas.forEach(t => {
+    const opt = document.createElement("option");
+    opt.value = t.numero;
+    opt.textContent = t.numero;
+    selectTurma.appendChild(opt);
+  });
+
+  selectTurma.disabled = turmasFiltradas.length === 0;
 }
 
 function capitalizeFirstLetter(str) {
