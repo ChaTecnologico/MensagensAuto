@@ -66,7 +66,7 @@ function carregarCursos() {
     const turmas = MODULOS_DATA[curso].turmas || [];
     const possuiCompatível = turmas.some(t => t.tipo === projeto);
 
-    if (possuiCompatível) {
+    if (turmas /*possuiCompatível*/) {
       const opt = document.createElement("option");
       opt.value = curso;
       opt.textContent = MODULOS_DATA[curso].nome;
