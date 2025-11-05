@@ -45,7 +45,14 @@ const MODULOS_DATA = {
         atividade: "Preparando a mousse de maracujá",
       },
     ],
-    turmas: [],
+    turmas: [
+      {
+        tipo: "itinerante",
+        numero: "01",
+        data: "06 de Novembro de 2025",
+        horario: "10:30",
+        dia: "QUINTA-FEIRA",
+      },],
   },
   cultivoPlantas: {
     nome: "Cultivo de Plantas",
@@ -103,6 +110,13 @@ const MODULOS_DATA = {
         numero: "07",
         data: "18 de Setembro de 2025",
         horario: "10:30",
+        dia: "QUINTA-FEIRA",
+      },
+      {
+        tipo: "itinerante",
+        numero: "01",
+        data: "06 de Novembro de 2025",
+        horario: "13:30",
         dia: "QUINTA-FEIRA",
       },
     ],
