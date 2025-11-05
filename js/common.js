@@ -2,6 +2,74 @@
 
 // Dados dos módulos e aulas
 const MODULOS_DATA = {
+  
+  
+  coral: {
+    nome: "Coral",
+    aulas: [],
+    turmas: [],
+  },
+  croche: {
+    nome: "Crochê",
+    aulas: [
+      { 
+        numero: 1, 
+        titulo: "Apresentação", 
+        atividade: "" 
+      },
+      { 
+        numero: 2, 
+        titulo: "Pontos Básicos", 
+        atividade: "" 
+      },
+      { 
+        numero: 3, 
+        titulo: "Brinco Flor", 
+        atividade: "" 
+      },
+      { 
+        numero: 4, 
+        titulo: "Phone Strap", 
+        atividade: "" 
+      },
+      { 
+        numero: 5, 
+        titulo: "Porta celular", 
+        atividade: "" 
+      },
+      { 
+        numero: 6, 
+        titulo: "Porta garrafa de água", 
+        atividade: "" 
+      },
+      { 
+        numero: 7, 
+        titulo: "Porta pano de prato", 
+        atividade: "" 
+      },
+      { 
+        numero: 8, 
+        titulo: "Chaveiro de rosa", 
+        atividade: "" 
+      },
+    ],
+    turmas: [
+      {
+        tipo: "municipal",
+        numero: "04",
+        data: "18 de Setembro de 2025",
+        horario: "10:30",
+        dia: "QUINTA-FEIRA",
+      },
+      {
+        tipo: "itinerante",
+        numero: "01",
+        data: "06 de Novembro de 2025",
+        horario: "08:30",
+        dia: "QUINTA-FEIRA",
+      },
+    ],
+  },
   culinaria: {
     nome: "Culinária",
     aulas: [
@@ -635,6 +703,70 @@ const MODULOS_DATA = {
       },
     ],
   },
+  redesSociais: {
+    nome: "Redes Sociais",
+    aulas: [
+      { 
+        numero: 1, 
+        titulo: "Apresentação", 
+        atividade: "Sem atividade" },
+      {
+        numero: 2,
+        titulo: "Grupos do Whatsapp",
+        atividade: "Grupos do WhatsApp",
+      },
+      {
+        numero: 3,
+        titulo: "Conhecendo o Facebook",
+        atividade: "Alterando foto de perfil do Facebook",
+      },
+      {
+        numero: 4,
+        titulo: "Postagens e botões do Facebook",
+        atividade: "Interações com botões do Facebook",
+      },
+      {
+        numero: 5,
+        titulo: "Conhecendo o Instagram",
+        atividade: "Identificando os botões do Instagram",
+      },
+      {
+        numero: 6,
+        titulo: "Stories e interações no Instagram",
+        atividade: "Postando um story no Instagram",
+      },
+      {
+        numero: 7,
+        titulo: "Conhecendo o TikTok",
+        atividade: "Verdadeiro ou faso - TikTok",
+      },
+      { 
+        numero: 8, 
+        titulo: "Pinterest", 
+        atividade: "Pesquisando no Pinterest" },
+    ],
+    turmas: [
+      {
+        tipo: "municipal",
+        numero: "07",
+        data: "18 de Setembro de 2025",
+        horario: "13:30",
+        dia: "QUINTA-FEIRA",
+      },
+      {
+        tipo: "itinerante",
+        numero: "01",
+        data: "06 de Novembro de 2025",
+        horario: "10:30",
+        dia: "QUINTA-FEIRA",
+      },
+    ],
+  },
+  teatro: {
+    nome: "Teatro",
+    aulas: [],
+    turmas: [],
+  },
   tecnologias: {
     nome: "Ensino das Tecnologias Digitais",
     aulas: [
@@ -919,136 +1051,6 @@ const MODULOS_DATA = {
         atividade: "Jogo da Memória: Cultura Indigena",
       },
     ],
-    turmas: [],
-  },
-  redesSociais: {
-    nome: "Redes Sociais",
-    aulas: [
-      { 
-        numero: 1, 
-        titulo: "Apresentação", 
-        atividade: "Sem atividade" },
-      {
-        numero: 2,
-        titulo: "Grupos do Whatsapp",
-        atividade: "Grupos do WhatsApp",
-      },
-      {
-        numero: 3,
-        titulo: "Conhecendo o Facebook",
-        atividade: "Alterando foto de perfil do Facebook",
-      },
-      {
-        numero: 4,
-        titulo: "Postagens e botões do Facebook",
-        atividade: "Interações com botões do Facebook",
-      },
-      {
-        numero: 5,
-        titulo: "Conhecendo o Instagram",
-        atividade: "Identificando os botões do Instagram",
-      },
-      {
-        numero: 6,
-        titulo: "Stories e interações no Instagram",
-        atividade: "Postando um story no Instagram",
-      },
-      {
-        numero: 7,
-        titulo: "Conhecendo o TikTok",
-        atividade: "Verdadeiro ou faso - TikTok",
-      },
-      { 
-        numero: 8, 
-        titulo: "Pinterest", 
-        atividade: "Pesquisando no Pinterest" },
-    ],
-    turmas: [
-      {
-        tipo: "municipal",
-        numero: "07",
-        data: "18 de Setembro de 2025",
-        horario: "13:30",
-        dia: "QUINTA-FEIRA",
-      },
-      {
-        tipo: "itinerante",
-        numero: "01",
-        data: "06 de Novembro de 2025",
-        horario: "10:30",
-        dia: "QUINTA-FEIRA",
-      },
-    ],
-  },
-  croche: {
-    nome: "Crochê",
-    aulas: [
-      { 
-        numero: 1, 
-        titulo: "Apresentação", 
-        atividade: "" 
-      },
-      { 
-        numero: 2, 
-        titulo: "Pontos Básicos", 
-        atividade: "" 
-      },
-      { 
-        numero: 3, 
-        titulo: "Brinco Flor", 
-        atividade: "" 
-      },
-      { 
-        numero: 4, 
-        titulo: "Phone Strap", 
-        atividade: "" 
-      },
-      { 
-        numero: 5, 
-        titulo: "Porta celular", 
-        atividade: "" 
-      },
-      { 
-        numero: 6, 
-        titulo: "Porta garrafa de água", 
-        atividade: "" 
-      },
-      { 
-        numero: 7, 
-        titulo: "Porta pano de prato", 
-        atividade: "" 
-      },
-      { 
-        numero: 8, 
-        titulo: "Chaveiro de rosa", 
-        atividade: "" 
-      },
-    ],
-    turmas: [
-      {
-        tipo: "municipal",
-        numero: "04",
-        data: "18 de Setembro de 2025",
-        horario: "10:30",
-        dia: "QUINTA-FEIRA",
-      },
-      {
-        tipo: "itinerante",
-        numero: "01",
-        data: "06 de Novembro de 2025",
-        horario: "08:30",
-        dia: "QUINTA-FEIRA",
-      },
-    ],
-  },
-  coral: {
-    nome: "Coral",
-    aulas: [],
-    turmas: [],
-  },
-  teatro: {
-    nome: "Teatro",
-    aulas: [],
     turmas: [],
   },
 };

@@ -46,6 +46,13 @@ DOM.obter("curso").addEventListener("change", carregarTurmas);
     CARREGAR CURSOS
 ================================ */
 function carregarCursos() {
+  const cursosExcluidos = [
+    "tecnologias",
+    "tecnologiasAvancado",
+    "desenvolvimentoCognitivo",
+    "desenvolvimentoCognitivoAvancado",
+  ];
+
   const projeto = document.getElementById("projeto").value;
   const selectCurso = document.getElementById("curso");
   const selectTurma = document.getElementById("turma");
@@ -65,8 +72,9 @@ function carregarCursos() {
   for (const curso in MODULOS_DATA) {
     const turmas = MODULOS_DATA[curso].turmas || [];
     const possuiCompatível = turmas.some(t => t.tipo === projeto);
+    console.log(curso)
 
-    if (turmas /*possuiCompatível*/) {
+    if (turmas && !cursosExcluidos.includes(curso)/*possuiCompatível*/) {
       const opt = document.createElement("option");
       opt.value = curso;
       opt.textContent = MODULOS_DATA[curso].nome;
