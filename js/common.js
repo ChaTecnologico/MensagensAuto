@@ -336,7 +336,7 @@ const MODULOS_DATA = {
       {
         numero: 7,
         titulo: "Linguagem e Comunicação",
-        atividade: "Complete a frase",
+        atividade: "Tipos de comunicação",
       },
       { 
         numero: 8, 
