@@ -75,6 +75,13 @@ const MODULOS_DATA = {
         horario: "08:30",
         dia: "QUINTA-FEIRA",
       },
+      {
+        tipo: "itinerante",
+        numero: "04",
+        data: "02 de Fevereiro de 2026",
+        horario: "08:30",
+        dia: "TERÇA-FEIRA",
+      },
     ],
   },
   culinaria: {
@@ -140,13 +147,6 @@ const MODULOS_DATA = {
         numero: "05",
         data: "02 de Fevereiro de 2026",
         horario: "15:30",
-        dia: "TERÇA-FEIRA",
-      },
-      {
-        tipo: "itinerante",
-        numero: "04",
-        data: "02 de Fevereiro de 2026",
-        horario: "08:30",
         dia: "TERÇA-FEIRA",
       },],
   },
