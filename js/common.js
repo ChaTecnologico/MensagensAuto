@@ -7,7 +7,14 @@ const MODULOS_DATA = {
   coral: {
     nome: "Coral",
     aulas: [],
-    turmas: [],
+    turmas: [
+      {
+        tipo: "itinerante",
+        numero: "01",
+        data: "02 de Fevereiro de 2026",
+        horario: "13:30",
+        dia: "TERÇA-FEIRA",
+      },],
   },
   croche: {
     nome: "Crochê",
@@ -127,6 +134,20 @@ const MODULOS_DATA = {
         data: "11 de Dezembro de 2025",
         horario: "15:30",
         dia: "QUINTA-FEIRA",
+      },
+      {
+        tipo: "itinerante",
+        numero: "05",
+        data: "02 de Fevereiro de 2026",
+        horario: "15:30",
+        dia: "TERÇA-FEIRA",
+      },
+      {
+        tipo: "itinerante",
+        numero: "04",
+        data: "02 de Fevereiro de 2026",
+        horario: "08:30",
+        dia: "TERÇA-FEIRA",
       },],
   },
   cultivoPlantas: {
@@ -193,6 +214,13 @@ const MODULOS_DATA = {
         data: "06 de Novembro de 2025",
         horario: "13:30",
         dia: "QUINTA-FEIRA",
+      },
+      {
+        tipo: "itinerante",
+        numero: "04",
+        data: "02 de Fevereiro de 2026",
+        horario: "10:30",
+        dia: "TERÇA-FEIRA",
       },
     ],
   },
@@ -312,6 +340,13 @@ const MODULOS_DATA = {
         data: "11 de Dezembro de 2025",
         horario: "08:30",
         dia: "QUINTA-FEIRA",
+      },
+      {
+        tipo: "itinerante",
+        numero: "05",
+        data: "02 de Fevereiro de 2026",
+        horario: "10:30",
+        dia: "TERÇA-FEIRA",
       },
     ],
   },
@@ -493,6 +528,13 @@ const MODULOS_DATA = {
         horario: "10:30",
         dia: "QUINTA-FEIRA",
       },
+      {
+        tipo: "itinerante",
+        numero: "05",
+        data: "02 de Fevereiro de 2026",
+        horario: "10:30",
+        dia: "TERÇA-FEIRA",
+      },
     ],
   },
   fotografia: {
@@ -567,6 +609,13 @@ const MODULOS_DATA = {
         horario: "10:30",
         dia: "QUINTA-FEIRA",
       },
+      {
+        tipo: "itinerante",
+        numero: "04",
+        data: "02 de Fevereiro de 2026",
+        horario: "13:30",
+        dia: "TERÇA-FEIRA",
+      },
     ],
   },
   ginastica: {
@@ -632,6 +681,13 @@ const MODULOS_DATA = {
         data: "11 de Dezembro de 2025",
         horario: "15:30",
         dia: "QUINTA-FEIRA",
+      },
+      {
+        tipo: "itinerante",
+        numero: "04",
+        data: "02 de Fevereiro de 2026",
+        horario: "13:30",
+        dia: "TERÇA-FEIRA",
       },
     ],
   },
@@ -729,6 +785,20 @@ const MODULOS_DATA = {
         horario: "15:30",
         dia: "QUARTA-FEIRA",
       },
+      {
+        tipo: "itinerante",
+        numero: "02",
+        data: "02 de Fevereiro de 2026",
+        horario: "13:30",
+        dia: "TERÇA-FEIRA",
+      },
+      {
+        tipo: "itinerante",
+        numero: "03",
+        data: "02 de Fevereiro de 2026",
+        horario: "10:30",
+        dia: "TERÇA-FEIRA",
+      },
     ],
   },
   redesSociais: {
@@ -794,6 +864,13 @@ const MODULOS_DATA = {
         data: "11 de Dezembro de 2025",
         horario: "13:30",
         dia: "QUINTA-FEIRA",
+      },
+      {
+        tipo: "itinerante",
+        numero: "05",
+        data: "02 de Fevereiro de 2026",
+        horario: "10:30",
+        dia: "TERÇA-FEIRA",
       },
     ],
   },
@@ -1086,7 +1163,14 @@ const MODULOS_DATA = {
         atividade: "Jogo da Memória: Cultura Indigena",
       },
     ],
-    turmas: [],
+    turmas: [
+      {
+        tipo: "itinerante",
+        numero: "01",
+        data: "02 de Fevereiro de 2026",
+        horario: "15:30",
+        dia: "TERÇA-FEIRA",
+      },],
   },
 };
 
