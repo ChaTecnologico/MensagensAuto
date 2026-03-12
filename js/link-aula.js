@@ -97,10 +97,17 @@ const INSTRUCTOR_DATA = [
       },
     ],
   },
-
   {
     nome: "Daiana Fernandes",
     modulos: [{ nome: "Crochê", link: "https://meet.google.com/tqz-ngvb-hmp" }],
+  },
+  {
+    nome: "Darlildo Souza",
+    modulos: [{ nome: "Cultivo de Plantas", link: "https://meet.google.com/xpi-igcf-rzp" }],
+  },
+  {
+    nome: "Andrea",
+    modulos: [{ nome: "Cultivo de Plantas", link: "Coming soon..." }],
   },
   {
     nome: "Iara Reis",
