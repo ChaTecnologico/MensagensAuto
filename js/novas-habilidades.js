@@ -20,6 +20,7 @@ const EMOJIS = {
   "Coral": "🎤",
   "Turismo Digital": "🌎",
   "Teatro": "🎭",
+  "Bordado": "🧵",
 };
 
 // Inicialização

@@ -103,6 +103,10 @@ const INSTRUCTOR_DATA = [
     modulos: [{ nome: "Crochê", link: "https://meet.google.com/tqz-ngvb-hmp" }],
   },
   {
+    nome: "Iara Reis",
+    modulos: [{ nome: "Bordado", link: "https://meet.google.com/qqs-ezaf-sbi" }],
+  },
+  {
     nome: "Jully Ribeiro",
     modulos: [
       {
@@ -246,6 +250,7 @@ function gerarMensagem() {
 
   // Emojis mapping
   const emojis = {
+    "Bordado": "🧵",
     "Ensino das Tecnologias Digitais": "📱",
     "Desenvolvimento Cognitivo": "🧠",
     "Redes Sociais": "📱",

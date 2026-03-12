@@ -3,7 +3,58 @@
 // Dados dos módulos e aulas
 const MODULOS_DATA = {
   
-  
+  bordado: {
+    nome: "Bordado",
+    aulas: [
+      { 
+        numero: 1, 
+        titulo: "Introdução ao Bordado", 
+        atividade: "" },
+      {
+        numero: 2,
+        titulo: "Ponto Atrás\nPonto Corrente",
+        atividade: "",
+      },
+      {
+        numero: 3,
+        titulo: "Ponto Aresta\nPonto Escama",
+        atividade: "",
+      },
+      {
+        numero: 4,
+        titulo: "Ponto Margarida\nPonto Cadeado)",
+        atividade: "Complete a receita",
+      },
+      {
+        numero: 5,
+        titulo: "Desenho com Referência\nDesenho Livre",
+        atividade: "",
+      },
+      {
+        numero: 6,
+        titulo: "",
+        atividade: "",
+      },
+      {
+        numero: 7,
+        titulo: "Finalizando o Bordado",
+        atividade: "",
+      },
+      {
+        numero: 8,
+        titulo: "Apresentação dos Projetos",
+        atividade: "",
+      },
+    ],
+    turmas: [
+      {
+        tipo: "itinerante",
+        numero: "02",
+        data: "17 de Março de 2026",
+        horario: "15:30",
+        dia: "TERÇA-FEIRA",
+      },],
+  },
   coral: {
     nome: "Coral",
     aulas: [],
