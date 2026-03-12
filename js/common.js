@@ -1512,6 +1512,9 @@ const Clipboard = {
 
 // Inicialização comum
 document.addEventListener("DOMContentLoaded", function () {
+
+   preencherSelectModulos();
+  
   // Definir data atual em campos de data
   const camposData = document.querySelectorAll('input[type="date"]');
   camposData.forEach((campo) => {
@@ -1553,3 +1556,20 @@ document.addEventListener("DOMContentLoaded", () => {
     });
   }
 });
+
+// Preencher automaticamente o select de módulos
+function preencherSelectModulos() {
+  const select = document.getElementById("modulo");
+  if (!select) return;
+
+  const primeiroOption = select.querySelector("option");
+  select.innerHTML = "";
+  select.appendChild(primeiroOption);
+
+  Object.entries(MODULOS_DATA).forEach(([key, modulo]) => {
+    const option = document.createElement("option");
+    option.value = key;
+    option.textContent = modulo.nome;
+    select.appendChild(option);
+  });
+}
