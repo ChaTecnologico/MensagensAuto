@@ -82,6 +82,13 @@ const MODULOS_DATA = {
         horario: "08:30",
         dia: "TERÇA-FEIRA",
       },
+      {
+        tipo: "itinerante",
+        numero: "05",
+        data: "17 de Março de 2026",
+        horario: "10:30",
+        dia: "TERÇA-FEIRA",
+      },
     ],
   },
   culinaria: {
@@ -221,6 +228,12 @@ const MODULOS_DATA = {
         data: "02 de Fevereiro de 2026",
         horario: "10:30",
         dia: "TERÇA-FEIRA",
+      },{
+        tipo: "itinerante",
+        numero: "05",
+        data: "17 de Março de 2026",
+        horario: "13:30",
+        dia: "TERÇA-FEIRA",
       },
     ],
   },
@@ -346,6 +359,12 @@ const MODULOS_DATA = {
         numero: "05",
         data: "02 de Fevereiro de 2026",
         horario: "10:30",
+        dia: "TERÇA-FEIRA",
+      },{
+        tipo: "itinerante",
+        numero: "06",
+        data: "17 de Março de 2026",
+        horario: "08:30",
         dia: "TERÇA-FEIRA",
       },
     ],
@@ -534,6 +553,12 @@ const MODULOS_DATA = {
         data: "02 de Fevereiro de 2026",
         horario: "10:30",
         dia: "TERÇA-FEIRA",
+      },{
+        tipo: "itinerante",
+        numero: "06",
+        data: "17 de Março de 2026",
+        horario: "15:30",
+        dia: "TERÇA-FEIRA",
       },
     ],
   },
@@ -615,6 +640,12 @@ const MODULOS_DATA = {
         data: "02 de Fevereiro de 2026",
         horario: "13:30",
         dia: "TERÇA-FEIRA",
+      },{
+        tipo: "itinerante",
+        numero: "05",
+        data: "17 de Março de 2026",
+        horario: "10:30",
+        dia: "TERÇA-FEIRA",
       },
     ],
   },
@@ -688,7 +719,14 @@ const MODULOS_DATA = {
         data: "02 de Fevereiro de 2026",
         horario: "13:30",
         dia: "TERÇA-FEIRA",
-      },
+      },/*
+      {
+        tipo: "itinerante",
+        numero: "05",
+        data: "17 de Março de 2026",
+        horario: "10:30",
+        dia: "TERÇA-FEIRA",
+      },*/
     ],
   },
   ginasticaAvancado: {
@@ -799,6 +837,13 @@ const MODULOS_DATA = {
         horario: "10:30",
         dia: "TERÇA-FEIRA",
       },
+      {
+        tipo: "itinerante",
+        numero: "04",
+        data: "17 de Março de 2026",
+        horario: "08:30",
+        dia: "TERÇA-FEIRA",
+      },
     ],
   },
   redesSociais: {
@@ -870,6 +915,20 @@ const MODULOS_DATA = {
         numero: "05",
         data: "02 de Fevereiro de 2026",
         horario: "10:30",
+        dia: "TERÇA-FEIRA",
+      },
+      {
+        tipo: "itinerante",
+        numero: "06",
+        data: "17 de Março de 2026",
+        horario: "10:30",
+        dia: "TERÇA-FEIRA",
+      },
+      {
+        tipo: "itinerante",
+        numero: "07",
+        data: "17 de Março de 2026",
+        horario: "13:30",
         dia: "TERÇA-FEIRA",
       },
     ],
@@ -1170,7 +1229,15 @@ const MODULOS_DATA = {
         data: "02 de Fevereiro de 2026",
         horario: "15:30",
         dia: "TERÇA-FEIRA",
-      },],
+      },
+      {
+        tipo: "itinerante",
+        numero: "02",
+        data: "17 de Março de 2026",
+        horario: "08:30",
+        dia: "TERÇA-FEIRA",
+      },
+    ],
   },
 };
 
