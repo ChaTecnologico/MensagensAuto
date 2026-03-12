@@ -770,14 +770,14 @@ const MODULOS_DATA = {
         data: "02 de Fevereiro de 2026",
         horario: "13:30",
         dia: "TERÇA-FEIRA",
-      },/*
+      },
       {
         tipo: "itinerante",
         numero: "05",
         data: "17 de Março de 2026",
         horario: "10:30",
         dia: "TERÇA-FEIRA",
-      },*/
+      },
     ],
   },
   ginasticaAvancado: {
