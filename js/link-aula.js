@@ -182,41 +182,50 @@ const INSTRUCTOR_DATA = [
         link: "https://meet.google.com/qcs-tgjw-obg",
       },
     ],
-  },
+   },
   {
-    nome: "Mariana Brasil",
+    nome: "Andrea Viana",
     modulos: [
       {
-        nome: "Ensino das Tecnologias Digitais",
-        link: "https://meet.google.com/gtq-rjpx-rpd",
-      },
-      {
-        nome: "Ensino das Tecnologias Digitais - Avançado",
-        link: "https://meet.google.com/gtq-rjpx-rpd",
-      },
-      {
-        nome: "Cultivo de Plantas",
-        link: "https://meet.google.com/snf-owtz-yax",
-      },
+         nome: "Desenho e Pintura",
+         link: "https://meet.google.com/jhi-roya-tnk",
+       },
     ],
-  },
-  {
-    nome: "Saionara Silva",
-    modulos: [
-      {
-        nome: "Desenho e Pintura",
-        link: "https://meet.google.com/nuu-dtgs-weo",
-      },
-      {
-        nome: "Ensino das Tecnologias Digitais",
-        link: "https://meet.google.com/arv-ojyi-fdu",
-      },
-      {
-        nome: "Ensino das Tecnologias Digitais - Avançado",
-        link: "https://meet.google.com/arv-ojyi-fdu",
-      },
-    ],
-  },
+   },
+  // {
+  //   nome: "Mariana Brasil",
+  //   modulos: [
+  //     {
+  //       nome: "Ensino das Tecnologias Digitais",
+  //       link: "https://meet.google.com/gtq-rjpx-rpd",
+  //     },
+  //     {
+  //       nome: "Ensino das Tecnologias Digitais - Avançado",
+  //       link: "https://meet.google.com/gtq-rjpx-rpd",
+  //     },
+  //     {
+  //       nome: "Cultivo de Plantas",
+  //       link: "https://meet.google.com/snf-owtz-yax",
+  //     },
+  //   ],
+  // },
+  // {
+  //   nome: "Saionara Silva",
+  //   modulos: [
+  //     {
+  //       nome: "Desenho e Pintura",
+  //       link: "https://meet.google.com/nuu-dtgs-weo",
+  //     },
+  //     {
+  //       nome: "Ensino das Tecnologias Digitais",
+  //       link: "https://meet.google.com/arv-ojyi-fdu",
+  //     },
+  //     {
+  //       nome: "Ensino das Tecnologias Digitais - Avançado",
+  //       link: "https://meet.google.com/arv-ojyi-fdu",
+  //     },
+  //   ],
+  // },
 ];
 
 // Gerar mensagem
