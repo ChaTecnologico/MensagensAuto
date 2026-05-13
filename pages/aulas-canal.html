@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Nome de Aula - Youtube</title>
+  <link rel="stylesheet" href="../css/style.css">
+  <style>
+    /* Regras de Layout e Fluxo */
+    .passo-selecao { display: none; }
+    .passo-ativo { display: flex !important; }
+    
+    .linha-dupla {
+      display: flex;
+      gap: 20px;
+      margin-bottom: 15px;
+      width: 100%;
+    }
+    
+    .coluna {
+      flex: 1;
+      display: flex;
+      flex-direction: column;
+    }
+    
+    .coluna label {
+      margin-bottom: 8px;
+      font-weight: bold;
+      color: var(--text-color, #333);
+    }
+
+    select {
+      padding: 10px;
+      border-radius: 5px;
+      border: 1px solid #ccc;
+      width: 100%;
+    }
+
+    /* Responsividade para telemóveis */
+    @media (max-width: 600px) {
+      .linha-dupla { flex-direction: column; gap: 15px; }
+    }
+
+    .mensagem-container { margin-top: 20px; }
+    textarea { width: 100%; min-height: 100px; padding: 10px; }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <div class="header">
+      <a href="../index.html" class="btn-voltar">← Voltar</a>
+      <h1>Nome de aula - Youtube</h1>
+      <button id="btn-tema" class="btn-secondary">🌓 Alternar Tema</button>
+    </div>
+
+    <div class="linha-dupla">
+      <div id="passo1" class="coluna passo-ativo">
+        <label>1. Versão do Projeto:</label>
+        <select id="tipoTurma" onchange="proximoPasso(2)">
+          <option value="">-- Selecione versão --</option>
+          <option value="municipal">Municipal</option>
+          <option value="itinerante">Itinerante</option>
+        </select>
+      </div>
+
+      <div id="passo2" class="coluna passo-selecao">
+        <label>2. Módulo:</label>
+        <select id="modulo" onchange="carregarTurmasEAulas()">
+          <option value="">-- Escolha um módulo --</option>
+        </select>
+      </div>
+    </div>
+
+    <div class="linha-dupla">
+      <div id="passo3" class="coluna passo-selecao">
+        <label>3. Turma:</label>
+        <select id="turmaSel" onchange="proximoPasso(4)">
+          <option value="">-- Selecione a Turma --</option>
+        </select>
+      </div>
+
+      <div id="passo4" class="coluna passo-selecao">
+        <label>4. Aula:</label>
+        <select id="aulaSel">
+          <option value="">-- Selecione a Aula --</option>
+        </select>
+      </div>
+    </div>
+
+    <div class="btn-group">
+      <button id="btn-gerar" onclick="gerarMensagemFormatada()">📝 Gerar Mensagem</button>
+      <button class="btn-secondary" onclick="copiarMensagem()">📋 Copiar Mensagem</button>
+      <button class="btn-tertiary" onclick="limparTudo()">🧹 Limpar campos</button>
+    </div>
+
+    <div class="mensagem-container">
+      <textarea id="mensagem" placeholder="Sua mensagem será gerada aqui..." readonly></textarea>
+    </div>
+  </div>
+
+  <script src="../js/common.js"></script>
+  <script src="../js/gerador-fluxo.js"></script>
+</body>
+</html>
