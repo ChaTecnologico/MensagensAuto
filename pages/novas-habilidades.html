@@ -1,72 +1,104 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Lembretes de Novas Habilidades</title>
+    <link rel="stylesheet" href="../css/style.css" />
+  </head>
 
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Lembretes de Novas Habilidades</title>
-  <link rel="stylesheet" href="../css/style.css">
-</head>
-
-<body>
-  <div class="container">
-    <div class="header">
-      <a href="../index.html" class="btn-voltar">← Voltar</a>
-      <h1>Novas Habilidades</h1>
-      <button id="btn-tema" class="btn-secondary">🌓 Alternar Tema</button>
-    </div>
-
-  <div class="form-container">
-
-  <div class="input-group">
-    <label for="projeto">Selecione o Projeto:</label>
-    <select id="projeto">
-      <option value="">-- Selecione o tipo --</option>
-      <option value="municipal">Municipal</option>
-      <option value="itinerante">Itinerante</option>
-    </select>
-  </div>
-
-  <div class="input-group">
-    <label for="curso">Selecione o Curso:</label>
-    <select id="curso">
-      <option value="">-- Escolha um curso --</option>
-    </select>
-  </div>
-
-  <div class="input-group">
-    <label for="turma" class="">Número da Turma:</label>
-    <select id="turma" disabled>
-        <option value="">-- Escolha a turma --</option>
-      </select>
-  </div>
-
-  <div class="input-group">
-    <label for="nome-aluno" class="">Nome(s) do(s) Aluno(s):</label>
-    <textarea id="nome-aluno" rows="5" placeholder="Digite os nomes dos alunos, um por linha ou deixe em branco para mensagem genérica"></textarea>
-  </div>
-</div>
-
-    <div class="btn-group">
-      <button id="btn-gerar" onclick="gerarMensagem()">📝 Gerar Mensagem</button>
-      <button class="btn-secondary" onclick="copiarMensagem()">📋 Copiar Mensagem</button>
-      <button class="btn-tertiary" onclick="limparCampos()">🧹 Limpar Campos</button>
-    </div>
-
-    <div class="mensagem-area">
-      <div class="mensagem-container" id="mensagem-container">
-        <textarea id="mensagem-display" placeholder="Sua mensagem será gerada aqui..." rows="10" readonly></textarea>
+  <body>
+    <div class="container">
+      <div class="header">
+        <a href="../index.html" class="btn-voltar">← Voltar</a>
+        <h1>Novas Habilidades</h1>
+        <button id="btn-tema" class="btn-secondary">🌓 Alternar Tema</button>
       </div>
-      <div id="navigation-buttons" style="display: none; justify-content: space-between; margin-top: 15px;">
-        <button id="btn-anterior" class="btn-secondary" onclick="mostrarMensagemAnterior()">← Anterior</button>
-        <button id="btn-proximo" class="btn-secondary" onclick="mostrarProximaMensagem()">Próxima →</button>
+
+      <div class="form-container">
+        <div class="row-datetime">
+          <div class="input-group">
+            <label for="projeto">Selecione o Projeto:</label>
+            <select id="projeto">
+              <option value="">-- Selecione o tipo --</option>
+              <option value="municipal">Municipal</option>
+              <option value="itinerante">Itinerante</option>
+            </select>
+          </div>
+
+          <div class="input-group">
+            <label for="curso">Selecione o Curso:</label>
+            <select id="curso">
+              <option value="">-- Escolha um curso --</option>
+            </select>
+          </div>
+
+          <div class="input-group">
+            <label for="turma" class="">Número da Turma:</label>
+            <select id="turma" disabled>
+              <option value="">-- Escolha a turma --</option>
+            </select>
+          </div>
+        </div>
+
+        <div class="input-group">
+          <label for="nome-aluno" class="">Nome(s) do(s) Aluno(s):</label>
+          <textarea
+            id="nome-aluno"
+            rows="5"
+            placeholder="Digite os nomes dos alunos, um por linha ou deixe em branco para mensagem genérica"
+          ></textarea>
+        </div>
+      </div>
+
+      <div class="btn-group">
+        <button id="btn-gerar" onclick="gerarMensagem()">
+          📝 Gerar Mensagem
+        </button>
+        <button class="btn-secondary" onclick="copiarMensagem()">
+          📋 Copiar Mensagem
+        </button>
+        <button class="btn-tertiary" onclick="limparCampos()">
+          🧹 Limpar Campos
+        </button>
+      </div>
+
+      <div class="mensagem-area">
+        <div class="mensagem-container" id="mensagem-container">
+          <textarea
+            id="mensagem-display"
+            placeholder="Sua mensagem será gerada aqui..."
+            rows="10"
+            readonly
+          ></textarea>
+        </div>
+        <div
+          id="navigation-buttons"
+          style="
+            display: none;
+            justify-content: space-between;
+            margin-top: 15px;
+          "
+        >
+          <button
+            id="btn-anterior"
+            class="btn-secondary"
+            onclick="mostrarMensagemAnterior()"
+          >
+            ← Anterior
+          </button>
+          <button
+            id="btn-proximo"
+            class="btn-secondary"
+            onclick="mostrarProximaMensagem()"
+          >
+            Próxima →
+          </button>
+        </div>
       </div>
     </div>
 
-  </div>
-
-  <script src="../js/common.js"></script>
-  <script src="../js/novas-habilidades.js"></script>
-</body>
-
+    <script src="../js/common.js"></script>
+    <script src="../js/novas-habilidades.js"></script>
+  </body>
 </html>
