@@ -1,10 +1,14 @@
-/* Estilos Principais - Gerador de Mensagens */
+/* =====================================================
+   ESTILOS PRINCIPAIS - GERADOR DE MENSAGENS
+   ===================================================== */
 
-/* Reset e configurações globais */
+/* ===== Reset e configurações globais =====
+   Define o box-sizing para todos os elementos e configura estilos base */
 * {
   box-sizing: border-box;
 }
 
+/* Estilos do corpo da página - flexbox centraliza conteúdo */
 body {
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   margin: 0;
@@ -17,7 +21,8 @@ body {
   line-height: 1.6;
 }
 
-/* Container principal */
+/* ===== Container Principal =====
+   Centraliza o conteúdo com sombra e borda arredondada */
 .container {
   background-color: #ffffff;
   margin: auto;
@@ -28,7 +33,8 @@ body {
   max-width: 900px;
 }
 
-/* Header */
+/* ===== Header / Cabeçalho =====
+   Flexbox que organiza título e botão de tema horizontalmente */
 .header {
   display: flex;
   justify-content: space-between;
@@ -38,6 +44,7 @@ body {
   gap: 15px;
 }
 
+/* Títulos no header */
 .header h1,
 .header h2 {
   color: #333333;

@@ -1,6 +1,12 @@
-// JavaScript para Link da Aula
+// ===================================================
+// GERADOR DE MENSAGENS COM LINK DE AULA (GOOGLE MEET)
+// ===================================================
+// Gera mensagens com links do Google Meet para aulas online
+// Mapeia instrutores, módulos e links específicos
 
-// New: Instructor and Module Data
+// ===== Data de Instrutores e Módulos =====
+// Armazena todos os instrutores com seus módulos e links do Google Meet
+// Cada instrutor possui uma lista de módulos que leciona, e cada módulo tem um link específico
 const INSTRUCTOR_DATA = [
   {
     nome: "Amanda Soares",
@@ -103,7 +109,12 @@ const INSTRUCTOR_DATA = [
   },
   {
     nome: "Darlildo Souza",
-    modulos: [{ nome: "Cultivo de Plantas", link: "https://meet.google.com/xpi-igcf-rzp" }],
+    modulos: [
+      {
+        nome: "Cultivo de Plantas",
+        link: "https://meet.google.com/xpi-igcf-rzp",
+      },
+    ],
   },
   {
     nome: "Andrea",
@@ -111,7 +122,9 @@ const INSTRUCTOR_DATA = [
   },
   {
     nome: "Iara Reis",
-    modulos: [{ nome: "Bordado", link: "https://meet.google.com/qqs-ezaf-sbi" }],
+    modulos: [
+      { nome: "Bordado", link: "https://meet.google.com/qqs-ezaf-sbi" },
+    ],
   },
   {
     nome: "Jully Ribeiro",
@@ -182,16 +195,16 @@ const INSTRUCTOR_DATA = [
         link: "https://meet.google.com/qcs-tgjw-obg",
       },
     ],
-   },
+  },
   {
     nome: "Andrea Viana",
     modulos: [
       {
-         nome: "Desenho e Pintura",
-         link: "https://meet.google.com/jhi-roya-tnk",
-       },
+        nome: "Desenho e Pintura",
+        link: "https://meet.google.com/jhi-roya-tnk",
+      },
     ],
-   },
+  },
   // {
   //   nome: "Mariana Brasil",
   //   modulos: [
@@ -253,11 +266,11 @@ function gerarMensagem() {
   if (!isValidURL(linkInput)) {
     DOM.definirConteudo(
       "mensagem",
-      "O link gerado não parece ser um URL válido."
+      "O link gerado não parece ser um URL válido.",
     );
     Utils.mostrarNotificacao(
       "O link gerado não parece ser um URL válido.",
-      "warning"
+      "warning",
     );
     return;
   }
@@ -266,7 +279,7 @@ function gerarMensagem() {
 
   // Emojis mapping
   const emojis = {
-    "Bordado": "🧵",
+    Bordado: "🧵",
     "Ensino das Tecnologias Digitais": "📱",
     "Desenvolvimento Cognitivo": "🧠",
     "Redes Sociais": "📱",
@@ -362,7 +375,7 @@ document.addEventListener("DOMContentLoaded", function () {
 
     if (selectedInstructorName) {
       const instructorData = INSTRUCTOR_DATA.find(
-        (i) => i.nome === selectedInstructorName
+        (i) => i.nome === selectedInstructorName,
       ); // Find instructor data
       if (instructorData) {
         // Sort modules alphabetically by name before populating
@@ -387,18 +400,18 @@ document.addEventListener("DOMContentLoaded", function () {
 
     if (selectedInstructorName && selectedModuleName) {
       const instructorData = INSTRUCTOR_DATA.find(
-        (i) => i.nome === selectedInstructorName
+        (i) => i.nome === selectedInstructorName,
       ); // Find instructor data
       if (instructorData) {
         const module = instructorData.modulos.find(
-          (mod) => mod.nome === selectedModuleName
+          (mod) => mod.nome === selectedModuleName,
         ); // Find module and its link
         if (module) {
           linkMeetInput.value = module.link;
         } else {
           Utils.mostrarNotificacao(
             "Link do Meet não encontrado para o módulo selecionado.",
-            "warning"
+            "warning",
           );
         }
       }

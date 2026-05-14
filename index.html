@@ -1,52 +1,68 @@
+<!-- Página principal do Gerador de Mensagens Educacionais -->
 <!DOCTYPE html>
 <html lang="pt-BR">
 
 <head>
+  <!-- Define charset para suportar caracteres especiais em português -->
   <meta charset="UTF-8">
+  <!-- Configuração de viewport para responsividade em dispositivos móveis -->
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- Título da página exibido na aba do navegador -->
   <title>Gerador de Mensagens - Instituto Idear</title>
+  <!-- Link para o arquivo CSS com estilos da aplicação -->
   <link rel="stylesheet" href="css/style.css">
 </head>
 
 <body>
+  <!-- Container principal que centraliza o conteúdo -->
   <div class="container">
+    <!-- Cabeçalho com título e botão de alternância de tema -->
     <div class="header">
+      <!-- Título da página -->
       <h1>Gerador de Mensagens</h1>
+      <!-- Botão para alternar entre tema claro e escuro -->
       <button id="btn-tema" class="btn-secondary">🌓 Alternar Tema</button>
     </div>
 
+    <!-- Grid de cards com as seis funcionalidades principais -->
     <div class="cards-container">
 
+      <!-- Card: Mensagem de Saudação (Bom Dia) -->
       <a href="pages/bom-dia.html" class="card">
         <div class="card-icon">🌞</div>
         <div class="card-title">Mensagem de Saudação</div>
         <div class="card-description">Gere mensagens de bom dia para as aulas</div>
       </a>
 
+      <!-- Card: Links de Aula (Google Meet) -->
       <a href="pages/link-aula.html" class="card">
         <div class="card-icon">🔗</div>
         <div class="card-title">Links de Aula</div>
         <div class="card-description">Gere mensagens com links para as aulas online</div>
       </a>
 
+      <!-- Card: Atividades de Casa -->
       <a href="pages/atividades-casa.html" class="card">
         <div class="card-icon">🏠</div>
         <div class="card-title">Atividades de Casa</div>
         <div class="card-description">Gere mensagens para atividades de casa</div>
       </a>
 
+      <!-- Card: Atividades Pendentes -->
       <a href="pages/atividades-pendentes.html" class="card">
         <div class="card-icon">📝</div>
         <div class="card-title">Atividades Pendentes</div>
         <div class="card-description">Gere lembretes para atividades pendentes dos alunos</div>
       </a>
 
+      <!-- Card: Novas Habilidades -->
       <a href="pages/novas-habilidades.html" class="card">
         <div class="card-icon">✨</div>
         <div class="card-title">Novas Habilidades</div>
         <div class="card-description">Gere lembretes para indicar as novas habilidades</div>
       </a>
 
+      <!-- Card: Nomes de Aulas para Youtube -->
       <a href="pages/aulas-canal.html" class="card">
         <div class="card-icon">📺</div>
         <div class="card-title">Nome de Aula - Youtube</div>
@@ -56,6 +72,7 @@
 
   </div>
 
+  <!-- Carrega o arquivo JavaScript com funções compartilhadas e dados -->
   <script src="js/common.js"></script>
 </body>
 

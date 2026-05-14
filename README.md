@@ -3,40 +3,51 @@ Gerador de Mensagens Educacionais
 Este sistema automatiza a geração de mensagens padronizadas para diversas atividades educacionais, facilitando a comunicação com alunos e instrutores.
 
 📋 Funcionalidades
-O Gerador de Mensagens oferece quatro funcionalidades principais, cada uma projetada para otimizar a comunicação em diferentes cenários:
+O Gerador de Mensagens oferece seis funcionalidades principais, cada uma projetada para otimizar a comunicação em diferentes cenários:
 
-1. Lembretes de Atividades Pendentes
-Gere lembretes personalizados para alunos que ainda não concluíram suas atividades.
-
-Seleção Flexível: Escolha o módulo e aulas específicas com atividades pendentes.
-
-Mensagens Detalhadas: A mensagem inclui o nome do módulo, título da aula e a atividade correspondente, direcionando o aluno a acessar o aplicativo EAD IDEAR para realizar as tarefas.
-
-2. Mensagens de Saudação
+1. Mensagem de Saudação (Bom Dia)
 Crie mensagens de bom dia para o início das aulas.
 
 Detalhes da Aula: Inclua o módulo, número da aula, título, data e hora.
 
-Instruções Específicas: 
-Para o módulo "Ensino das Tecnologias Digitais", na aula 01, a mensagem é específica convidando o aluno a participar da "Aula Treino".
+Instruções Específicas: A mensagem se adapta ao tipo de módulo e aula.
 
-Para o módulo "Ensino das Tecnologias Digitais", aulas até a 10, a mensagem oferece um lembrete para consultar a apostila nas páginas 13 e 14 para o passo a passo de como entrar na aula.
+Personalização: Mensagens customizadas conforme o curso selecionado.
 
-Personalização: A mensagem se adapta ao tipo de módulo e aula.
-
-3. Links de Aula
+2. Links de Aula
 Gere mensagens com o link direto para a aula online no Google Meet.
 
 Seleção por Instrutor e Módulo: Escolha o instrutor e o módulo da aula para obter o link correto.
 
 Data Automática: A data da aula é preenchida automaticamente.
 
-4. Atividades de Casa
+3. Atividades de Casa
 Prepare mensagens para atividades que os alunos devem realizar em casa.
 
 Seleção de Módulo e Aula: Permite selecionar o módulo e a aula específica.
 
-Informações Completas: A mensagem inclui o nome do módulo, o número e título da aula, e a descrição da atividade, incentivando o acesso ao Ambiente Virtual de Aprendizagem.
+Informações Completas: A mensagem inclui o nome do módulo, número e título da aula, e descrição da atividade.
+
+4. Atividades Pendentes
+Gere lembretes personalizados para alunos que ainda não concluíram suas atividades.
+
+Seleção Flexível: Escolha o módulo e aulas específicas com atividades pendentes.
+
+Mensagens Detalhadas: A mensagem inclui nome do módulo, título da aula e atividade correspondente.
+
+5. Novas Habilidades
+Gere lembretes para indicar as novas habilidades adquiridas pelos alunos.
+
+Emojis Personalizados: Cada curso tem um emoji específico para melhor visualização.
+
+Seleção por Projeto e Turma: Personalize mensagens baseadas em projeto e turma.
+
+6. Nome de Aula - YouTube
+Gere nomes formatados para as aulas no canal do YouTube.
+
+Código de Turma Automático: Gera automaticamente códigos de turma com ano de referência e siglas.
+
+Padronização: Garante nomenclatura consistente para todas as aulas.
 
 🚀 Como Usar
 Instalação
@@ -49,7 +60,13 @@ Abra o arquivo index.html em qualquer navegador moderno para começar a usar.
 Navegação
 Página Principal: Acesse index.html.
 
-Seleção de Função: Clique no cartão da funcionalidade desejada (Lembretes de Atividades Pendentes, Mensagens de Bom Dia, Links de Aula, Atividades de Casa).
+Seleção de Função: Clique no cartão da funcionalidade desejada:
+  - Mensagem de Saudação (Bom Dia)
+  - Links de Aula
+  - Atividades de Casa
+  - Atividades Pendentes
+  - Novas Habilidades
+  - Nome de Aula - YouTube
 
 Preenchimento: Complete os campos necessários na interface da funcionalidade selecionada.
 
@@ -62,22 +79,26 @@ Limpeza: Clique em "🧹 Limpar Mensagem" (ou "🧹 Limpar Campos" em algumas p�
 📁 Estrutura do Projeto
 
 ```
-automatic-messenger/
-├── index.html                 # Página principal
-├── README.md                  # Esta documentação
+MensagensAuto/
+├── index.html                      # Página principal com cards das 6 funcionalidades
+├── README.md                       # Esta documentação
 ├── css/
-│   └── style.css             # Estilos unificados
+│   └── style.css                  # Estilos unificados
 ├── js/
-│   ├── common.js             # Funções e dados compartilhados
-│   ├── atividades-pendentes.js
-│   ├── bom-dia.js
-│   ├── link-aula.js
-│   └── atividades-casa.js
-└── pages/                    # Páginas HTML de cada módulo gerador de mensagens
+│   ├── common.js                  # Funções e dados compartilhados (CONFIG_SISTEMA, avisar, proximoPasso)
+│   ├── atividades-pendentes.js    # Gerador de lembretes de atividades pendentes
+│   ├── atividades-casa.js         # Gerador de mensagens de atividades de casa
+│   ├── bom-dia.js                 # Gerador de mensagens de saudação
+│   ├── link-aula.js               # Gerador de mensagens com links de aula (Google Meet)
+│   ├── novas-habilidades.js       # Gerador de lembretes de novas habilidades
+│   └── aulas-canal.js             # Gerador de nomes para aulas do YouTube
+└── pages/                         # Páginas HTML de cada funcionalidade
     ├── atividades-pendentes.html
+    ├── atividades-casa.html
     ├── bom-dia.html
     ├── link-aula.html
-    └── atividades-casa.html
+    ├── novas-habilidades.html
+    └── aulas-canal.html
 ```
 
 🎨 Características Visuais
@@ -125,14 +146,26 @@ Adicione a nova aula ao array aulas correspondente ao módulo desejado.
 Adicionando Novos Módulos
 Adicione o novo módulo e suas aulas ao objeto MODULOS_DATA em js/common.js.
 
-Atualize os dropdowns de seleção de módulo nos arquivos HTML relevantes (ex: atividades-casa.html, atividades-pendentes.html, bom-dia.html, link-aula.html).
+Atualize os dropdowns de seleção de módulo nos arquivos HTML relevantes (atividades-casa.html, atividades-pendentes.html, bom-dia.html, link-aula.html).
+
+Adicionando Novos Cursos (Novas Habilidades)
+Edite o arquivo js/novas-habilidades.js.
+
+Adicione o novo curso ao mapeamento EMOJIS para definir um emoji personalizado.
+
+Atualize a lógica de filtro de cursos conforme necessário em carregarCursos().
 
 Adicionando Novos Instrutores ou Links de Aula
 Edite o arquivo js/link-aula.js.
 
 No array INSTRUCTOR_DATA, adicione um novo objeto para o instrutor com seu nome e os módulos que ele leciona, juntamente com os links do Google Meet.
 
-Garanta que o dropdown de seleção de instrutores em link-aula.html reflita a nova adição, embora o link-aula.js já tenha lógica para popular este campo dinamicamente.
+Garanta que o dropdown de seleção de instrutores em link-aula.html reflita a nova adição.
+
+Adicionando Novos Padrões de Nomenclatura (YouTube)
+Edite o arquivo js/aulas-canal.js.
+
+Atualize a configuração CONFIG_SISTEMA em js/common.js para adicionar novas siglas de módulos conforme necessário.
 
 Modificando Estilos
 Edite o arquivo css/style.css.
