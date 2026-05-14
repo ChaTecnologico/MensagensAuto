@@ -5,7 +5,7 @@
  */
 
 const CONFIG_SISTEMA = {
-    anoRef: "26",
+    anoRef: "25", // Ano de referência para o código da turma (ex: 2025 -> "25") - trocar para "26" na virada do projeto
     siglas: {
         "bordado": "BOR",
         "coral": "CAN",
