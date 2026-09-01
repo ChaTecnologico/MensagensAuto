@@ -1,7 +1,7 @@
 // ===== Configuração do Sistema =====
 // Define constantes e configurações globais para o gerador de fluxo
 const CONFIG_SISTEMA = {
-    anoRef: "25", // Ano de referência para código de turma (ex: 2025 -> "25") - trocar para "26" na virada
+    anoRef: "26", // Ano de referência para código de turma (ex: 2025 -> "25") - trocar para "26" na virada
     siglas: {
         // Mapeia chave de módulo para sigla de 3 letras para código de turma
         "bordado": "BOR",

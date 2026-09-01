@@ -12,11 +12,11 @@ const INSTRUCTOR_DATA = [
     nome: "Amanda Soares",
     modulos: [
       {
-        nome: "Ensino das Tecnologias Digitais",
+        nome: "Ensino das Tecnologias",
         link: "https://meet.google.com/uyc-xcbz-gwh",
       },
       {
-        nome: "Ensino das Tecnologias Digitais - Avançado",
+        nome: "Ensino das Tecnologias - Avançado",
         link: "https://meet.google.com/uyc-xcbz-gwh",
       },
       {
@@ -31,14 +31,23 @@ const INSTRUCTOR_DATA = [
     ],
   },
   {
+    nome: "Andrea Viana",
+    modulos: [
+      {
+        nome: "Desenho e Pintura",
+        link: "https://meet.google.com/jhi-roya-tnk",
+      },
+    ],
+  },
+  {
     nome: "Attali Correia",
     modulos: [
       {
-        nome: "Ensino das Tecnologias Digitais",
+        nome: "Ensino das Tecnologias",
         link: "https://meet.google.com/nes-mbfi-uoy ",
       },
       {
-        nome: "Ensino das Tecnologias Digitais - Avançado",
+        nome: "Ensino das Tecnologias - Avançado",
         link: "https://meet.google.com/nes-mbfi-uoy ",
       },
       {
@@ -55,11 +64,11 @@ const INSTRUCTOR_DATA = [
     nome: "Cintia Santiago",
     modulos: [
       {
-        nome: "Ensino das Tecnologias Digitais",
+        nome: "Ensino das Tecnologias",
         link: "https://meet.google.com/chp-mjfd-yfy",
       },
       {
-        nome: "Ensino das Tecnologias Digitais - Avançado",
+        nome: "Ensino das Tecnologias - Avançado",
         link: "https://meet.google.com/chp-mjfd-yfy",
       },
       {
@@ -87,23 +96,6 @@ const INSTRUCTOR_DATA = [
     ],
   },
   {
-    nome: "Cristiano Lima",
-    modulos: [
-      {
-        nome: "Ensino das Tecnologias Digitais",
-        link: "https://meet.google.com/oss-pjmt-imn",
-      },
-      {
-        nome: "Ensino das Tecnologias Digitais - Avançado",
-        link: "https://meet.google.com/oss-pjmt-imn",
-      },
-      {
-        nome: "Fotografia Digital",
-        link: "https://meet.google.com/ssb-qpuw-zvx",
-      },
-    ],
-  },
-  {
     nome: "Daiana Fernandes",
     modulos: [{ nome: "Crochê", link: "https://meet.google.com/tqz-ngvb-hmp" }],
   },
@@ -117,10 +109,6 @@ const INSTRUCTOR_DATA = [
     ],
   },
   {
-    nome: "Andrea",
-    modulos: [{ nome: "Cultivo de Plantas", link: "Coming soon..." }],
-  },
-  {
     nome: "Iara Reis",
     modulos: [
       { nome: "Bordado", link: "https://meet.google.com/qqs-ezaf-sbi" },
@@ -130,11 +118,11 @@ const INSTRUCTOR_DATA = [
     nome: "Jully Ribeiro",
     modulos: [
       {
-        nome: "Ensino das Tecnologias Digitais",
+        nome: "Ensino das Tecnologias",
         link: "https://meet.google.com/zcp-srct-yeb",
       },
       {
-        nome: "Ensino das Tecnologias Digitais - Avançado ",
+        nome: "Ensino das Tecnologias - Avançado ",
         link: "https://meet.google.com/zcp-srct-yeb",
       },
       {
@@ -156,11 +144,11 @@ const INSTRUCTOR_DATA = [
     nome: "Karinny Ferreira",
     modulos: [
       {
-        nome: "Ensino das Tecnologias Digitais",
+        nome: "Ensino das Tecnologias",
         link: "https://meet.google.com/sii-edgk-gsh",
       },
       {
-        nome: "Ensino das Tecnologias Digitais - Avançado",
+        nome: "Ensino das Tecnologias - Avançado",
         link: "https://meet.google.com/sii-edgk-gsh",
       },
       { nome: "Nutrição", link: "https://meet.google.com/sii-edgk-gsh" },
@@ -171,11 +159,11 @@ const INSTRUCTOR_DATA = [
     nome: "Layane Ramos",
     modulos: [
       {
-        nome: "Ensino das Tecnologias Digitais",
+        nome: "Ensino das Tecnologias",
         link: "https://meet.google.com/cqm-jwgq-mck",
       },
       {
-        nome: "Ensino das Tecnologias Digitais - Avançado",
+        nome: "Ensino das Tecnologias - Avançado",
         link: "https://meet.google.com/cqm-jwgq-mck",
       },
       { nome: "Ginástica", link: "https://meet.google.com/zmn-czch-tdz" },
@@ -187,58 +175,36 @@ const INSTRUCTOR_DATA = [
     modulos: [
       { nome: "Turismo Digital", link: "https://meet.google.com/kaj-pffe-ufo" },
       {
-        nome: "Ensino das Tecnologias Digitais",
+        nome: "Ensino das Tecnologias",
         link: "https://meet.google.com/qcs-tgjw-obg",
       },
       {
-        nome: "Ensino das Tecnologias Digitais - Avançado",
+        nome: "Ensino das Tecnologias - Avançado",
         link: "https://meet.google.com/qcs-tgjw-obg",
       },
     ],
   },
   {
-    nome: "Andrea Viana",
+    nome: "Maria Clara",
     modulos: [
       {
-        nome: "Desenho e Pintura",
-        link: "https://meet.google.com/jhi-roya-tnk",
+        nome: "Ensino das Tecnologias",
+        link: "A receber",
+      },
+      {
+        nome: "Dança",
+        link: "A receber",
+      },
+      {
+        nome: "Ginástica",
+        link: "A receber",
+      },
+      {
+        nome: "Fotografia Digital",
+        link: "A receber",
       },
     ],
   },
-  // {
-  //   nome: "Mariana Brasil",
-  //   modulos: [
-  //     {
-  //       nome: "Ensino das Tecnologias Digitais",
-  //       link: "https://meet.google.com/gtq-rjpx-rpd",
-  //     },
-  //     {
-  //       nome: "Ensino das Tecnologias Digitais - Avançado",
-  //       link: "https://meet.google.com/gtq-rjpx-rpd",
-  //     },
-  //     {
-  //       nome: "Cultivo de Plantas",
-  //       link: "https://meet.google.com/snf-owtz-yax",
-  //     },
-  //   ],
-  // },
-  // {
-  //   nome: "Saionara Silva",
-  //   modulos: [
-  //     {
-  //       nome: "Desenho e Pintura",
-  //       link: "https://meet.google.com/nuu-dtgs-weo",
-  //     },
-  //     {
-  //       nome: "Ensino das Tecnologias Digitais",
-  //       link: "https://meet.google.com/arv-ojyi-fdu",
-  //     },
-  //     {
-  //       nome: "Ensino das Tecnologias Digitais - Avançado",
-  //       link: "https://meet.google.com/arv-ojyi-fdu",
-  //     },
-  //   ],
-  // },
 ];
 
 // Gerar mensagem
@@ -280,7 +246,7 @@ function gerarMensagem() {
   // Emojis mapping
   const emojis = {
     Bordado: "🧵",
-    "Ensino das Tecnologias Digitais": "📱",
+    "Ensino das Tecnologias": "📱",
     "Desenvolvimento Cognitivo": "🧠",
     "Redes Sociais": "📱",
     "Educação Financeira": "💰",
@@ -294,7 +260,7 @@ function gerarMensagem() {
     Ginástica: "🏃",
     "Ginástica - Avançado": "🏃",
     Coral: "🎤",
-    "Ensino das Tecnologias Digitais - Avançado": "📱",
+    "Ensino das Tecnologias - Avançado": "📱",
     "Desenvolvimento Cognitivo - Avançado": "🧠",
     "Turismo Digital": "🌎",
   };

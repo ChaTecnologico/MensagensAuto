@@ -468,56 +468,62 @@ const MODULOS_DATA = {
       { 
         numero: 1, 
         titulo: "Apresentação", 
-        atividade: "Sem Atividade" },
+        atividade: "---"
+      },
       {
         numero: 2,
         titulo: "Mantendo a Mente Ativa",
-        atividade: "Jogo da memória",
+        atividade: "---"
       },
       {
         numero: 3,
-        titulo: "Sensação e Percepção",
-        atividade: "Figura e fundo",
+        titulo: "Foco e concentração",
+        atividade: "---"
       },
       {
         numero: 4,
-        titulo: "A importância da atenção",
-        atividade: "Países repetidos; Letras perdidas",
+        titulo: "Vamos recordar",
+        atividade: "---"
       },
       {
         numero: 5,
-        titulo: "Entendendo a memória",
-        atividade: "Questionário memórias",
+        titulo: "Memórias Afetivas",
+        atividade: "---"
       },
       {
         numero: 6,
-        titulo: "Memórias Afetivas",
-        atividade: "Lembranças afetivas",
+        titulo: "Sensação e Percepção",
+        atividade: "---"
       },
       {
         numero: 7,
-        titulo: "Linguagem e Comunicação",
-        atividade: "Tipos de comunicação",
+        titulo: "Além das Palavras",
+        atividade: "---"
       },
       { 
         numero: 8, 
-        titulo: "Emoções", 
-        atividade: "Identificando emoções" 
+        titulo: "Sentir faz parte da Vida", 
+        atividade: "---"
       },
       { 
         numero: 9, 
-        titulo: "Motivação", 
-        atividade: "Motivação" 
+        titulo: "Consciência Espacial", 
+        atividade: "---"
       },
       { 
         numero: 10, 
         titulo: "Raciocínio Lógico", 
-        atividade: "Que horas são?" 
+        atividade: "---"
       },
       {
         numero: 11,
-        titulo: "Exercitando Raciocínio",
-        atividade: "Exercitando o raciocínio",
+        titulo: "Exercitando o raciocínio",
+        atividade: "---"
+      },
+      {
+        numero: 12,
+        titulo: "Criatividade",
+        atividade: "---"
       },
     ],
   },
@@ -526,52 +532,62 @@ const MODULOS_DATA = {
     aulas: [
       {
         numero: 1,
-        titulo: "Autoconhecimento",
-        atividade: "Aprendendo a se conhecer melhor",
+        titulo: "Apresentação + Mantendo a Mente Ativa",
+        atividade: "O que é o que é?",
       },
       { 
         numero: 2, 
-        titulo: "Autoestima", 
-        atividade: "Identificando frases" },
+        titulo: "De Olho nos Detalhes", 
+        atividade: "Vamos viajar!" },
       {
         numero: 3,
-        titulo: "Como elevar a autoestima",
-        atividade: "Elevando a autoestima",
+        titulo: "Desafios da Mente",
+        atividade: "Desafiando a mente",
       },
       {
         numero: 4,
-        titulo: "Autoconfiança",
-        atividade: "Tire um tempo pra você",
+        titulo: "Detetives dos Detalhes",
+        atividade: "Descobrindo os detalhes",
       },
       {
         numero: 5,
-        titulo: "Estratégias de memorização por categorização",
-        atividade: "Identificando categorias",
+        titulo: "Fazendo as Contas",
+        atividade: "Almoço de domingo",
       },
       {
         numero: 6,
-        titulo: "Outras estratégias de memorização",
-        atividade: "Jogo da memória por associação",
+        titulo: "Na ponta da língua",
+        atividade: "Na ponta da lingua",
       },
       {
         numero: 7,
-        titulo: "Percepção Espacial",
-        atividade: "Complete as figuras",
+        titulo: "Recordar é Viver",
+        atividade: "Memorizando",
       },
       {
         numero: 8,
-        titulo: "Relações interpessoais",
-        atividade: "Verdadeiro ou falso - relações interpessoais",
+        titulo: "Palavras em Movimento",
+        atividade: "Shiritori",
       },
       {
         numero: 9,
-        titulo: "Inteligência Emocional",
-        atividade: "Identificando emoções",
+        titulo: "Tudo no seu lugar",
+        atividade: "Cores e Formas",
       },
       {
         numero: 10,
-        titulo: "Aula Final",
-        atividade: "Organizando os temas das aulas",
+        titulo: "Mente Investigadora",
+        atividade: "Investigando as formas",
+      },
+      {
+        numero: 11,
+        titulo: "Fábrica de Artes",
+        atividade: "Transformando com o Trangram",
+      },
+      {
+        numero: 12,
+        titulo: "Pesquisa de Satisfação",
+        atividade: "---",
       },
     ],
   },
@@ -692,7 +708,7 @@ const MODULOS_DATA = {
         numero: 4,
         titulo: "Regra dos Terços",
         atividade:
-          "Regra dos terços (Quiz) - parte 01; Regra dos terços - parte 02; Pática - Desafio Fotográfico de Observação \n🤔 *O que fazer na prática:* Cada aluno tira uma foto de algo em seu ambiente, procurando destacar um dos elementos visuais (linhas, cores, padrões).\nPode ser uma janela, um jardim, um pet, uma árvore.\nVocê compartilha a imagem no grupo e explica o que buscou capturar na fotografia.",
+          "Regra dos terços (Quiz); Regra dos terços; Pática - Desafio Fotográfico de Observação \n🤔 *O que fazer na prática:* Cada aluno tira uma foto de algo em seu ambiente, procurando destacar um dos elementos visuais (linhas, cores, padrões).\nPode ser uma janela, um jardim, um pet, uma árvore.\nVocê compartilha a imagem no grupo e explica o que buscou capturar na fotografia.",
       },
       {
         numero: 5,
@@ -1088,243 +1104,271 @@ const MODULOS_DATA = {
     turmas: [],
   },
   tecnologias: {
-    nome: "Ensino das Tecnologias Digitais",
+    nome: "Ensino das Tecnologias",
     aulas: [
       { 
         numero: 1, 
-        titulo: "Google Meet", 
-        atividade: "Não possui" },
+        titulo: "Aula treino - Google Meet", 
+        atividade: "Não possui"
+      },
       {
         numero: 2,
-        titulo: "Introdução aos Conteúdos e Regras de Convivência",
+        titulo: "Apresentação e introdução aos conteúdos",
         atividade: "Não possui",
       },
       { 
         numero: 3, 
-        titulo: "Conhecendo o Whatsapp", 
-        atividade: "Não possui" },
+        titulo: "Aplicativos de Conversa: WhatsApp", 
+        atividade: "Não possui"
+      },
       {
         numero: 4,
         titulo: "Ambiente Virtual de Aprendizagem",
-        atividade: "Não possui",
+        atividade: "Não possui"
       },
       {
         numero: 5,
-        titulo: "Tela Inicial dos Aplicativos",
-        atividade: "Explorando a tela inicial",
+        titulo: "Tela Inicial dos Dispositivos Móveis",
+        atividade: "---",
       },
       {
         numero: 6,
         titulo: "Aprendendo Conectar à Internet",
-        atividade: "Conectando Wi-fi",
+        atividade: "---",
       },
       {
         numero: 7,
-        titulo: "Calculadora, Relógio e SMS",
-        atividade: "Ativando um alarme",
+        titulo: "Contatos e Ligações",
+        atividade: "---",
       },
       {
         numero: 8,
-        titulo: "Contatos e Ligações",
-        atividade: "Salvando um contato",
+        titulo: "Câmera e Galeria",
+        atividade: "---",
       },
       { 
         numero: 9, 
-        titulo: "Câmera e Galeria", 
-        atividade: "Jogo da memória" },
+        titulo: "WhatsApp: Ligações e Configuração de Perfil", 
+        atividade: "---",
+      },
       {
         numero: 10,
-        titulo: "Pesquisas na Internet",
-        atividade: "Pesquisas por texto",
+        titulo: "WhatsApp: Salvar e bloquear contatos, apagar mensagens e limpar conversas",
+        atividade: "---",
       },
       {
         numero: 11,
-        titulo: "YouTube - Funções básicas",
-        atividade: "Pesquisas no Youtube",
+        titulo: "WhatsApp: Anexando Arquivos",
+        atividade: "---",
       },
       {
         numero: 12,
-        titulo: "YouTube - Funções Avançadas",
-        atividade: "Compartilhando vídeo",
+        titulo: "Telegram",
+        atividade: "---",
       },
       {
         numero: 13,
-        titulo: "WhatsApp: Ligações e configurações",
-        atividade: "Salvando um contato",
+        titulo: "Inteligência Artificial",
+        atividade: "---",
       },
       {
         numero: 14,
         titulo:
-          "WhatsApp: Apagar mensagens, limpar conversa e bloquear contato",
-        atividade:
-          "WhatsApp - Limpar conversa (parte 1); Apagando uma mensagem (parte 2)",
+          "ChatGPT",
+        atividade: "---",
       },
       {
         numero: 15,
-        titulo: "WhatsApp - Enviando contatos",
-        atividade: "WhatsApp: Enviando um contato",
+        titulo: "Pesquisas na Internet",
+        atividade: "---",
       },
       {
         numero: 16,
-        titulo: "Instalação e desinstalação de aplicativos",
-        atividade: "Instalando aplicativos",
+        titulo: "YouTube",
+        atividade: "---",
       },
       {
         numero: 17,
-        titulo: "A importância do e-mail",
-        atividade: "Criando uma conta de e-mail",
+        titulo: "Instalação e Desinstalação de Aplicativos",
+        atividade: "---",
       },
       {
         numero: 18,
-        titulo: "Práticas de uso do e-mail",
-        atividade: "Recebendo e-mail",
+        titulo: "Aplicativos Utilitários",
+        atividade: "---",
       },
       {
         numero: 19,
-        titulo: "Transportes por aplicativos",
-        atividade: "Solicitando uma corrida",
+        titulo: "Mensagens de SMS",
+        atividade: "---",
       },
       { 
         numero: 20, 
-        titulo: "QR Code", 
-        atividade: "QR CODE" },
+        titulo: "Uso do E-mail", 
+        atividade: "QR CODE" 
+      },
       {
         numero: 21,
-        titulo: "Segurança digital",
-        atividade: "Identificando golpes",
+        titulo: "Transportes por Aplicativos",
+        atividade: "---",
       },
       {
         numero: 22,
-        titulo: "Aplicativos de bancos",
-        atividade: "Funções dos aplicativos bancários",
+        titulo: "Segurança digital e golpes",
+        atividade: "---",
       },
       {
         numero: 23,
-        titulo: "Aplicativos de bancos - uso do pix",
-        atividade: "Enviando um pix",
+        titulo: "Dicas de Segurança Digital",
+        atividade: "---",
       },
       {
         numero: 24,
-        titulo: "Portal Gov.Br",
-        atividade: "Perguntas sobre o Gov.br",
+        titulo: "Aplicativos de Bancos",
+        atividade: "---",
       },
       {
         numero: 25,
-        titulo: "Lazer digital e compras online",
-        atividade: "Jogo da memória",
+        titulo: "Aplicativos de Bancos: Uso do Pix",
+        atividade: "---",
       },
       {
         numero: 26,
-        titulo: "Uso consciente do celular",
-        atividade: "Perguntas sobre o uso consciente do celular",
+        titulo: "Portal Gov.br",
+        atividade: "---",
       },
       {
         numero: 27,
-        titulo: "Inteligência Artificial",
-        atividade: "Verdade ou criado por Inteligência Artificial",
+        titulo: "Uso Consciente do Celular",
+        atividade: "---",
+      },
+      {
+        numero: 28,
+        titulo: "Preenchimento de formulários digitais",
+        atividade: "---",
+      },
+      {
+        numero: 29,
+        titulo: "Pesquisa de Satisfação",
+        atividade: "---",
       },
     ],
   },
   tecnologiasAvancado: {
-    nome: "Ensino das Tecnologias Digitais - Avançado",
+    nome: "Ensino das Tecnologias - Avançado",
     aulas: [
       {
         numero: 1,
-        titulo: "Apresentação",
+        titulo: "Revisando para Avançar: Preparando-se para novos aprendizados",
         atividade:
-          "Acesse o Ambiente Virtual de Aprendizagem e realize a atividade de hoje!",
+          "Simulando o Chat do Google Meet",
       },
       {
         numero: 2,
-        titulo: "Ambiente virtual de aprendizagem",
-        atividade: "Formulário de sondagem",
+        titulo: "Tela inicial: Revisando e Praticando Novos Recursos",
+        atividade: "Limpando notificações e aplicativos em uso",
       },
       {
         numero: 3,
-        titulo: "Tela inicial dos dispositivos móveis",
-        atividade: "Pesquisando um aplicativo",
+        titulo: "Funções e personalização da Tela Inicial",
+        atividade: "Alterando o papel de parede",
       },
       { 
         numero: 4, 
-        titulo: "Câmera e galeria", 
-        atividade: "Ligando a flash" },
+        titulo: "Aplicativos de Conversa: WhatsApp", 
+        atividade: "Editando uma mensagem no WhastApp" },
       {
         numero: 5,
-        titulo: "Explorando o WhatsApp",
+        titulo: "Ferramentas do WhatsApp",
         atividade: "Enviando uma figurinha",
       },
       {
         numero: 6,
-        titulo: "Ferramentas do WhatsApp",
-        atividade: "Comunidades do WhatsApp (VÍDEO)",
+        titulo: "Aplicativos de Conversa: Telegram",
+        atividade: "Aplicativos de Conversa - Telegram",
       },
       {
         numero: 7,
-        titulo: "Pesquisas na internet",
-        atividade: "Fechando abas do Google Chrome",
+        titulo: "Câmera e Galeria",
+        atividade: "Como fazer boas fotos",
       },
       { 
         numero: 8, 
-        titulo: "Google Lens", 
-        atividade: "O que é o Google Lens?" },
+        titulo: "Inteligência Artificial", 
+        atividade: "Verdadeiro ou Falso sobre IA" },
       { 
         numero: 9, 
-        titulo: "Google Maps", 
-        atividade: "O que é o Google Maps?" },
+        titulo: "ChatGPT", 
+        atividade: "Perguntas sobre o Chat GPT" },
       {
         numero: 10,
-        titulo: "YouTube",
-        atividade: "Compartilhando um vídeo no YouTube",
+        titulo: "Pesquisas na Internet",
+        atividade: "Pesquisando na internet",
       },
       {
         numero: 11,
-        titulo: "YouTube - botões essenciais",
-        atividade: "Pesquisas no YouTube",
+        titulo: "Google Lens",
+        atividade: "Traduzindo com o Google Lens",
       },
       {
         numero: 12,
-        titulo: "Instalação e Desinstalação de aplicativos",
-        atividade: "Instalando aplicativos",
+        titulo: "Google Maps",
+        atividade: "Reconhecendo transportes",
       },
       {
         numero: 13,
-        titulo: "Aplicativo de Serviços",
-        atividade: "Aplicativos de Serviços.",
+        titulo: "Youtube",
+        atividade: "---",
       },
       {
         numero: 14,
-        titulo: "Portal Gov.br",
-        atividade: "Criando um conta GOV(VÍDEO)",
+        titulo: "Instalação e desinstalação de aplicativos",
+        atividade: "---",
       },
       {
         numero: 15,
-        titulo: "Transportes por aplicativos",
-        atividade: "Solicitando uma corrida",
+        titulo: "Aplicativos de Serviços",
+        atividade: "---",
       },
       {
         numero: 16,
-        titulo: "Segurança Digital",
-        atividade: "Identificando golpes",
+        titulo: "Portal Gov.br",
+        atividade: "---",
       },
       {
         numero: 17,
-        titulo: "Aplicativos de Bancos",
-        atividade: "Enviando um pix",
+        titulo: "Transportes por aplicativos",
+        atividade: "---",
       },
       {
         numero: 18,
-        titulo: "Lazer digital e Compras online",
-        atividade: "Lazer digital e Compras online",
+        titulo: "Segurança digital e golpes",
+        atividade: "---",
       },
       {
         numero: 19,
-        titulo: "Inteligência Artificial",
-        atividade: "Verdade ou criado por inteligência artificial",
+        titulo: "Dicas de Segurança Digital",
+        atividade: "---",
       },
       {
         numero: 20,
+        titulo: "Aplicativos de Banco",
+        atividade: "---",
+      },
+      {
+        numero: 21,
         titulo: "Uso consciente do celular",
-        atividade: "Perguntas sobre o uso consciente do celular",
+        atividade: "---",
+      },
+      {
+        numero: 22,
+        titulo: "Preenchimento de formulários digitais",
+        atividade: "---",
+      },
+      {
+        numero: 23,
+        titulo: "Pesquisa de Satisfação",
+        atividade: "---",
       },
     ],
   },

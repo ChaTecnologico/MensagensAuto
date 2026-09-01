@@ -21,7 +21,7 @@ document.addEventListener("DOMContentLoaded", function () {
 
 // ===== Carregar Aulas do Módulo Selecionado =====
 // Dinamicamente cria inputs de aula baseado no módulo escolhido
-// Para "Tecnologias Digitais" cria um select com opções específicas
+// Para "Ensino das Tecnologias" cria um select com opções específicas
 // Para outros módulos cria um input fixo (somente leitura)
 function carregarAulas() {
   const moduloSelecionado = DOM.obter("modulo").value;
@@ -41,7 +41,7 @@ function carregarAulas() {
     return;
   }
 
-  // ===== Lógica Específica para "Ensino das Tecnologias Digitais" =====
+  // ===== Lógica Específica para "Ensino das Tecnologias" =====
   // Este módulo tem 3 tipos diferentes de aulas com mensagens personalizadas
   if (moduloSelecionado === "tecnologias") {
     aulaElement = document.createElement("select");
@@ -97,7 +97,7 @@ function gerarMensagem() {
     Hora: hora,
   };
 
-  // A aula só é obrigatória se o módulo for "Ensino das Tecnologias Digitais"
+  // A aula só é obrigatória se o módulo for "Ensino das Tecnologias"
   if (modulo === "tecnologias") {
     // Para o módulo de tecnologias, precisamos que uma aula seja de fato selecionada
     if (
@@ -134,7 +134,7 @@ function gerarMensagem() {
 
   let mensagem;
 
-  // ===== Lógica de Mensagens para "Ensino das Tecnologias Digitais" =====
+  // ===== Lógica de Mensagens para "Ensino das Tecnologias" =====
   // Cada tipo de aula tem uma mensagem específica
   if (modulo === "tecnologias") {
     if (aulaSelecionada === "aula_01") {
@@ -150,7 +150,7 @@ function gerarMensagem() {
       mensagem = `🌤️ Bom dia turma, passando para informar que hoje temos mais uma aula de *${moduloNome}*!\n\n`;
       mensagem += `🗓 ${diaSemana} - ${dataFormatada}\n`;
       mensagem += `⏰ Hora: ${hora}\n`;
-      mensagem += `\n📒 Para relembrar o *passo a passo de como entrar na aula*, abra a sua APOSTILA e acompanhe nas páginas 13 e 14.\n`;
+      mensagem += `\n📒 Para relembrar o *passo a passo de como entrar na aula*, abra a sua APOSTILA e acompanhe nas páginas 18 e 19.\n`;
       mensagem += `\nConto com a presença de todos 💚`;
     } else if (aulaSelecionada === "aula_11_adiante") {
       // Mensagem para aulas 11 em diante (simplificada)
@@ -160,7 +160,7 @@ function gerarMensagem() {
       mensagem += `\nConto com a presença de todos 💚`;
     } else {
       mensagem =
-        "Por favor, selecione uma aula válida para o módulo de Tecnologias Digitais.";
+        "Por favor, selecione uma aula válida para o módulo de Ensino das Tecnologias.";
       Utils.mostrarNotificacao(mensagem, "warning");
       return;
     }
