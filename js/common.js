@@ -1015,7 +1015,7 @@ const MODULOS_DATA = {
       {
         numero: 14,
         titulo: "Instalação e desinstalação de aplicativos",
-        atividade: "---",
+        atividade: "Excluindo aplicativos",
       },
       {
         numero: 15,
@@ -1025,27 +1025,27 @@ const MODULOS_DATA = {
       {
         numero: 16,
         titulo: "Portal Gov.br",
-        atividade: "---",
+        atividade: "Verdadeiro ou falso sobre o Gov.br",
       },
       {
         numero: 17,
         titulo: "Transportes por aplicativos",
-        atividade: "---",
+        atividade: "Solicitando uma viagem com a Uber",
       },
       {
         numero: 18,
         titulo: "Segurança digital e golpes",
-        atividade: "---",
+        atividade: "Prevenindo golpes",
       },
       {
         numero: 19,
         titulo: "Dicas de Segurança Digital",
-        atividade: "---",
+        atividade: "Criando senhas fortes",
       },
       {
         numero: 20,
         titulo: "Aplicativos de Banco",
-        atividade: "---",
+        atividade: "Enviando um PIX",
       },
       {
         numero: 21,
@@ -1055,7 +1055,7 @@ const MODULOS_DATA = {
       {
         numero: 22,
         titulo: "Preenchimento de formulários digitais",
-        atividade: "---",
+        atividade: "Preenchendo um formulário",
       },
       {
         numero: 23,
