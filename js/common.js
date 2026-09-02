@@ -1015,7 +1015,7 @@ const MODULOS_DATA = {
       {
         numero: 14,
         titulo: "Instalação e desinstalação de aplicativos",
-        atividade: "Excluindo aplicativos",
+        atividade: "Instalando aplicativos; Excluindo aplicativos",
       },
       {
         numero: 15,
