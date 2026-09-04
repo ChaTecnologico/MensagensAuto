@@ -27,7 +27,8 @@ const INSTRUCTOR_DATA = [
         nome: "Desenvolvimento Cognitivo - Avançado",
         link: "https://meet.google.com/uyc-xcbz-gwh",
       },
-      { nome: "Redes Sociais", link: "https://meet.google.com/uyc-xcbz-gwh" },
+      { nome: "Redes Sociais",
+        link: "https://meet.google.com/uyc-xcbz-gwh" },
     ],
   },
   {
@@ -92,12 +93,19 @@ const INSTRUCTOR_DATA = [
         nome: "Desenvolvimento Cognitivo - Avançado",
         link: "https://meet.google.com/onw-wbyt-jjz",
       },
-      { nome: "Redes Sociais", link: "https://meet.google.com/tcx-nbvb-nxt" },
+      { nome: "Redes Sociais",
+        link: "https://meet.google.com/tcx-nbvb-nxt" 
+      },
     ],
   },
   {
     nome: "Daiana Fernandes",
-    modulos: [{ nome: "Crochê", link: "https://meet.google.com/tqz-ngvb-hmp" }],
+    modulos: [
+      { 
+        nome: "Crochê",
+        link: "https://meet.google.com/tqz-ngvb-hmp" 
+      }
+    ],
   },
   {
     nome: "Darlildo Souza",
@@ -111,7 +119,10 @@ const INSTRUCTOR_DATA = [
   {
     nome: "Iara Reis",
     modulos: [
-      { nome: "Bordado", link: "https://meet.google.com/qqs-ezaf-sbi" },
+      { 
+        nome: "Bordado",
+        link: "https://meet.google.com/qqs-ezaf-sbi" 
+      },
     ],
   },
   {
@@ -133,7 +144,8 @@ const INSTRUCTOR_DATA = [
         nome: "Desenvolvimento Cognitivo - Avançado",
         link: "https://meet.google.com/zcp-srct-yeb",
       },
-      { nome: "Redes Sociais", link: "https://meet.google.com/zcp-srct-yeb" },
+      { nome: "Redes Sociais",
+        link: "https://meet.google.com/zcp-srct-yeb" },
       {
         nome: "Educação Financeira",
         link: "https://meet.google.com/zcp-srct-yeb",
@@ -151,8 +163,12 @@ const INSTRUCTOR_DATA = [
         nome: "Ensino das Tecnologias - Avançado",
         link: "https://meet.google.com/sii-edgk-gsh",
       },
-      { nome: "Nutrição", link: "https://meet.google.com/sii-edgk-gsh" },
-      { nome: "Culinária", link: "https://meet.google.com/sii-edgk-gsh" },
+      { 
+        nome: "Nutrição",
+        link: "https://meet.google.com/sii-edgk-gsh" },
+      { 
+        nome: "Culinária",
+        link: "https://meet.google.com/sii-edgk-gsh" },
     ],
   },
   {
@@ -166,14 +182,23 @@ const INSTRUCTOR_DATA = [
         nome: "Ensino das Tecnologias - Avançado",
         link: "https://meet.google.com/cqm-jwgq-mck",
       },
-      { nome: "Ginástica", link: "https://meet.google.com/zmn-czch-tdz" },
-      { nome: "Dança", link: "https://meet.google.com/zmn-czch-tdz" },
+      { 
+        nome: "Ginástica", 
+        link: "https://meet.google.com/zmn-czch-tdz" 
+      },
+      { 
+        nome: "Dança", 
+        link: "https://meet.google.com/zmn-czch-tdz" 
+      },
     ],
   },
   {
     nome: "Ligia Lima",
     modulos: [
-      { nome: "Turismo Digital", link: "https://meet.google.com/kaj-pffe-ufo" },
+      { 
+        nome: "Turismo Digital",
+        link: "https://meet.google.com/kaj-pffe-ufo" 
+      },
       {
         nome: "Ensino das Tecnologias",
         link: "https://meet.google.com/qcs-tgjw-obg",
@@ -189,19 +214,19 @@ const INSTRUCTOR_DATA = [
     modulos: [
       {
         nome: "Ensino das Tecnologias",
-        link: "A receber",
+        link: "https://meet.google.com/hqa-xdtk-srt",
       },
       {
         nome: "Dança",
-        link: "A receber",
+        link: "https://meet.google.com/hqa-xdtk-srt",
       },
       {
         nome: "Ginástica",
-        link: "A receber",
+        link: "https://meet.google.com/hqa-xdtk-srt",
       },
       {
         nome: "Fotografia Digital",
-        link: "A receber",
+        link: "https://meet.google.com/hqa-xdtk-srt",
       },
     ],
   },
