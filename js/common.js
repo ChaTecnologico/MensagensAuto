@@ -896,27 +896,27 @@ const MODULOS_DATA = {
       {
         numero: 5,
         titulo: "Tela Inicial dos Dispositivos Móveis",
-        atividade: "---",
+        atividade: "Explorando a tela inicial",
       },
       {
         numero: 6,
         titulo: "Aprendendo Conectar à Internet",
-        atividade: "---",
+        atividade: "Conectando Wi-fi",
       },
       {
         numero: 7,
         titulo: "Contatos e Ligações",
-        atividade: "---",
+        atividade: "Salvando um contato",
       },
       {
         numero: 8,
         titulo: "Câmera e Galeria",
-        atividade: "---",
+        atividade: "Funções da câmera",
       },
       { 
         numero: 9, 
         titulo: "WhatsApp: Ligações e Configuração de Perfil", 
-        atividade: "---",
+        atividade: "Mudando a foto do perfil",
       },
       {
         numero: 10,
@@ -936,18 +936,18 @@ const MODULOS_DATA = {
       {
         numero: 13,
         titulo: "Inteligência Artificial",
-        atividade: "---",
+        atividade: "Verdadeiro ou falso sobre IA",
       },
       {
         numero: 14,
         titulo:
           "ChatGPT",
-        atividade: "---",
+        atividade: "Perguntas sobre o Chat GPT",
       },
       {
         numero: 15,
         titulo: "Pesquisas na Internet",
-        atividade: "---",
+        atividade: "Pesquisas por texto",
       },
       {
         numero: 16,
@@ -957,7 +957,7 @@ const MODULOS_DATA = {
       {
         numero: 17,
         titulo: "Instalação e Desinstalação de Aplicativos",
-        atividade: "---",
+        atividade: "Instalando aplicativos",
       },
       {
         numero: 18,
@@ -967,22 +967,22 @@ const MODULOS_DATA = {
       {
         numero: 19,
         titulo: "Mensagens de SMS",
-        atividade: "---",
+        atividade: "Usando o SMS com eficiência",
       },
       { 
         numero: 20, 
         titulo: "Uso do E-mail", 
-        atividade: "QR CODE" 
+        atividade: "---" 
       },
       {
         numero: 21,
         titulo: "Transportes por Aplicativos",
-        atividade: "---",
+        atividade: "Solicitando uma corrida",
       },
       {
         numero: 22,
         titulo: "Segurança digital e golpes",
-        atividade: "---",
+        atividade: "Identificando golpes",
       },
       {
         numero: 23,
@@ -992,17 +992,17 @@ const MODULOS_DATA = {
       {
         numero: 24,
         titulo: "Aplicativos de Bancos",
-        atividade: "---",
+        atividade: "Funções dos aplicativos bancários",
       },
       {
         numero: 25,
         titulo: "Aplicativos de Bancos: Uso do Pix",
-        atividade: "---",
+        atividade: "Enviando um pix",
       },
       {
         numero: 26,
         titulo: "Portal Gov.br",
-        atividade: "---",
+        atividade: "Perguntas sobre o Gov.br",
       },
       {
         numero: 27,

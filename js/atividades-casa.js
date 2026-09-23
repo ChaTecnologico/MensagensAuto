@@ -127,21 +127,24 @@ function gerarMensagem() {
   }_\n`;
   
   // Se há múltiplas atividades, as formata separadamente
-  if (multiplasAtividades) {
-    const atividades = aula.atividade
-      .split(";")
-      .map((atividade, index) => {
-        return `✏️ *ATIVIDADE ${String(aula.numero).padStart(2, "0")} (PARTE ${
-          index + 1
-        }):* ${atividade.trim()}`;
-      })
-      .join("\n");
-    mensagem += atividades + "\n\n";
-  } else {
-    // Caso contrário, mostra apenas uma atividade
-    mensagem += `✏️ *ATIVIDADE ${String(aula.numero).padStart(2, "0")}:* ${
-      aula.atividade
-    }\n\n`;
+  console.log(aula.atividade);
+  if (!aula.atividade.trim() == "Não possui" || !aula.atividade.trim() == "---") {
+    if (multiplasAtividades) {
+      const atividades = aula.atividade
+        .split(";")
+        .map((atividade, index) => {
+          return `✏️ *ATIVIDADE ${String(aula.numero).padStart(2, "0")} (PARTE ${
+            index + 1
+          }):* ${atividade.trim()}`;
+        })
+        .join("\n");
+      mensagem += atividades + "\n\n";
+    } else {
+      // Caso contrário, mostra apenas uma atividade
+      mensagem += `✏️ *ATIVIDADE ${String(aula.numero).padStart(2, "0")}:* ${
+        aula.atividade
+      }\n\n`;
+    }
   }
 
   // Exibe a mensagem e mostra botões
