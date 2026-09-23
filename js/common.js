@@ -896,7 +896,7 @@ const MODULOS_DATA = {
       {
         numero: 5,
         titulo: "Tela Inicial dos Dispositivos Móveis",
-        atividade: "Explorando a tela inicial",
+        atividade: "Funções da barra de status",
       },
       {
         numero: 6,
