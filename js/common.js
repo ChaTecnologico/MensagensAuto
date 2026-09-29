@@ -297,12 +297,12 @@ const MODULOS_DATA = {
       {
         numero: 2,
         titulo: "Mantendo a Mente Ativa",
-        atividade: "---"
+        atividade: "Jogo da Memória"
       },
       {
         numero: 3,
         titulo: "Foco e concentração",
-        atividade: "---"
+        atividade: "Figura e fundo"
       },
       {
         numero: 4,
@@ -331,7 +331,7 @@ const MODULOS_DATA = {
       },
       { 
         numero: 9, 
-        titulo: "Consciência Espacial", 
+        titulo: "Corpo e Mente", 
         atividade: "---"
       },
       { 
@@ -435,7 +435,7 @@ const MODULOS_DATA = {
     aulas: [
       {
         numero: 1,
-        titulo: "Apresentação + Mantendo a Mente Ativa",
+        titulo: "Mantendo a Mente Ativa",
         atividade: "O que é o que é?",
       },
       { 
@@ -1111,7 +1111,7 @@ const MODULOS_DATA = {
       },
       {
         numero: 2,
-        titulo: "Tela inicial: Revisando e Praticando Novos Recursos",
+        titulo: "Tela inicial dos dispositivos móveis",
         atividade: "Limpando notificações e aplicativos em uso",
       },
       {
@@ -1131,7 +1131,7 @@ const MODULOS_DATA = {
       {
         numero: 6,
         titulo: "Aplicativos de Conversa: Telegram",
-        atividade: "Aplicativos de Conversa - Telegram",
+        atividade: "Usando o Telegram",
       },
       {
         numero: 7,
@@ -1159,12 +1159,12 @@ const MODULOS_DATA = {
       {
         numero: 12,
         titulo: "Google Maps",
-        atividade: "Reconhecendo transportes",
+        atividade: "Reconhecendo transportes no Google Maps",
       },
       {
         numero: 13,
         titulo: "Youtube",
-        atividade: "---",
+        atividade: "Recursos extras do YouTube",
       },
       {
         numero: 14,
@@ -1174,7 +1174,7 @@ const MODULOS_DATA = {
       {
         numero: 15,
         titulo: "Aplicativos de Serviços",
-        atividade: "---",
+        atividade: "Aplicativos de Serviços",
       },
       {
         numero: 16,
@@ -1184,12 +1184,12 @@ const MODULOS_DATA = {
       {
         numero: 17,
         titulo: "Transportes por aplicativos",
-        atividade: "Solicitando uma viagem com a Uber",
+        atividade: "Solicitando um transporte por aplicativo",
       },
       {
         numero: 18,
         titulo: "Segurança digital e golpes",
-        atividade: "Prevenindo golpes",
+        atividade: "Desafio: Você saberia o que fazer?",
       },
       {
         numero: 19,
@@ -1204,7 +1204,7 @@ const MODULOS_DATA = {
       {
         numero: 21,
         titulo: "Uso consciente do celular",
-        atividade: "---",
+        atividade: "O bom uso do celular",
       },
       {
         numero: 22,
