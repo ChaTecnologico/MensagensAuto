@@ -921,17 +921,17 @@ const MODULOS_DATA = {
       {
         numero: 10,
         titulo: "WhatsApp: Salvar e bloquear contatos, apagar mensagens e limpar conversas",
-        atividade: "---",
+        atividade: "Salvando um contato",
       },
       {
         numero: 11,
         titulo: "WhatsApp: Anexando Arquivos",
-        atividade: "---",
+        atividade: "Enviando uma foto",
       },
       {
         numero: 12,
         titulo: "Telegram",
-        atividade: "---",
+        atividade: "Usando o Telegram",
       },
       {
         numero: 13,
