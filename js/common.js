@@ -307,47 +307,47 @@ const MODULOS_DATA = {
       {
         numero: 4,
         titulo: "Vamos recordar",
-        atividade: "---"
+        atividade: "Qual é o tipo de memória?"
       },
       {
         numero: 5,
         titulo: "Memórias Afetivas",
-        atividade: "---"
+        atividade: "Álbum de Recordações"
       },
       {
         numero: 6,
         titulo: "Sensação e Percepção",
-        atividade: "---"
+        atividade: "Pensando bem"
       },
       {
         numero: 7,
         titulo: "Além das Palavras",
-        atividade: "---"
+        atividade: "Tipos de comunicação"
       },
       { 
         numero: 8, 
         titulo: "Sentir faz parte da Vida", 
-        atividade: "---"
+        atividade: "Identificando emoções"
       },
       { 
         numero: 9, 
         titulo: "Corpo e Mente", 
-        atividade: "---"
+        atividade: "Charadas visuais"
       },
       { 
         numero: 10, 
         titulo: "Raciocínio Lógico", 
-        atividade: "---"
+        atividade: "Que horas são?"
       },
       {
         numero: 11,
         titulo: "Exercitando o raciocínio",
-        atividade: "---"
+        atividade: "Navegando com o raciocínio"
       },
       {
         numero: 12,
         titulo: "Criatividade",
-        atividade: "---"
+        atividade: "Árvore da gratidão"
       },
     ],
     turmas: [
