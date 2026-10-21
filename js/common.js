@@ -911,7 +911,7 @@ const MODULOS_DATA = {
       },
       {
         numero: 15,
-        titulo: "Pesquisas na Internet",
+        titulo: "Pesquisando na Internet",
         atividade: "Pesquisas por texto",
       },
       {
