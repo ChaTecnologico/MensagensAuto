@@ -128,7 +128,7 @@ function gerarMensagem() {
   
   // Se há múltiplas atividades, as formata separadamente
   console.log(aula.atividade);
-  if (!aula.atividade.trim() == "Não possui" || !aula.atividade.trim() == "---") {
+  if ( !(aula.atividade.trim() == "Não possui" || aula.atividade.trim() == "---")) {
     if (multiplasAtividades) {
       const atividades = aula.atividade
         .split(";")
