@@ -14,6 +14,7 @@ const CONFIG_SISTEMA = {
         "desenvolvimentoCognitivo": "DCN",
         "desenvolvimentoCognitivoAvancado": "DCV",
         "educacaoFinanceira": "FIN",
+        "empreendedorismo": "EMP",
         "fotografia": "FOT",
         "ginastica": "GIN",
         "ginasticaAvancado": "GINV",

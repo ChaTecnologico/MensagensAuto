@@ -100,7 +100,20 @@ const MODULOS_DATA = {
       },
     ],
     turmas: [
-      
+      {
+        tipo: "municipal",
+        numero: "01",
+        data: "29 de Outubro de 2026",
+        horario: "10:30",
+        dia: "QUINTA-FEIRA",
+      },
+      {
+        tipo: "municipal",
+        numero: "02",
+        data: "29 de Outubro de 2026",
+        horario: "13:30",
+        dia: "QUINTA-FEIRA",
+      },
     ],
   },
   culinaria: {
@@ -193,6 +206,20 @@ const MODULOS_DATA = {
       },
     ],
     turmas: [
+      {
+        tipo: "municipal",
+        numero: "01",
+        data: "29 de Outubro de 2026",
+        horario: "10:30",
+        dia: "QUINTA-FEIRA",
+      },
+      {
+        tipo: "municipal",
+        numero: "02",
+        data: "29 de Outubro de 2026",
+        horario: "13:30",
+        dia: "QUINTA-FEIRA",
+      },
     ],
   },
   danca: {
@@ -284,7 +311,14 @@ const MODULOS_DATA = {
       },
     ],
     turmas: [
-      ],
+      {
+        tipo: "municipal",
+        numero: "01",
+        data: "29 de Outubro de 2026",
+        horario: "10:30",
+        dia: "QUINTA-FEIRA",
+      },
+    ],
   },
   desenvolvimentoCognitivo: {
     nome: "Desenvolvimento Cognitivo",
@@ -547,6 +581,72 @@ const MODULOS_DATA = {
       },
     ],
     turmas: [
+      {
+        tipo: "municipal",
+        numero: "01",
+        data: "29 de Outubro de 2026",
+        horario: "10:30",
+        dia: "QUINTA-FEIRA",
+      },  
+    ],
+  },
+  empreedorismo: {
+    nome: "Empreedorismo",
+    aulas: [
+      { 
+        numero: 1, 
+        titulo: "Conhecendo o Empreendedorismo", 
+        atividade: "Sem atividade"
+      },
+      {
+        numero: 2,
+        titulo: "Transformando Habilidade em Negócio",
+        atividade: "---",
+      },
+      {
+        numero: 3,
+        titulo: "Identificando oportunidades",
+        atividade: "---",
+      },
+      {
+        numero: 4,
+        titulo: "Precificando produtos e serviços",
+        atividade: "---",
+      },
+      { 
+        numero: 5, 
+        titulo: "Como quero que meu negócio seja visto?", 
+        atividade: "---?" 
+      },
+      {
+        numero: 6,
+        titulo: "Comunicação profissional e Marketing pessoal",
+        atividade: "---",
+      },
+      {
+        numero: 7,
+        titulo: "Atendimento ao cliente",
+        atividade: "---",
+      },
+      {
+        numero: 8,
+        titulo: "Construindo o meu plano de negócios",
+        atividade: "---",
+      },
+      {
+        numero: 9,
+        titulo: "Apresentação plano de negócios",
+        atividade: "---",
+      },
+    ],
+    turmas: [
+      {
+        tipo: "municipal",
+        numero: "01",
+        data: "29 de Outubro de 2026",
+        horario: "08:30",
+        dia: "QUINTA-FEIRA",
+      },
     ],
   },
   fotografia: {
@@ -602,51 +702,10 @@ const MODULOS_DATA = {
     turmas: [
       {
         tipo: "municipal",
-        numero: "06",
-        data: "20 de Agosto de 2025",
-        horario: "10:30",
-        dia: "QUARTA-FEIRA",
-      },
-      {
-        tipo: "municipal",
-        numero: "07",
-        data: "18 de Setembro de 2025",
-        horario: "13:30",
-        dia: "QUINTA-FEIRA",
-      },
-      {
-        tipo: "itinerante",
         numero: "01",
-        data: "06 de Novembro de 2025",
+        data: "29 de Outubro de 2026",
         horario: "10:30",
         dia: "QUINTA-FEIRA",
-      },
-      {
-        tipo: "itinerante",
-        numero: "04",
-        data: "02 de Fevereiro de 2026",
-        horario: "13:30",
-        dia: "TERÇA-FEIRA",
-      },{
-        tipo: "itinerante",
-        numero: "05",
-        data: "17 de Março de 2026",
-        horario: "10:30",
-        dia: "TERÇA-FEIRA",
-      },
-      {
-        tipo: "itinerante",
-        numero: "06",
-        data: "02 de Abril de 2026",
-        horario: "10:30",
-        dia: "QUINTA-FEIRA",
-      },
-      {
-        tipo: "itinerante",
-        numero: "07",
-        data: "02 de Abril de 2026",
-        horario: "15:30",
-        dia: "TERÇA-FEIRA",
       },
     ],
   },
@@ -693,6 +752,13 @@ const MODULOS_DATA = {
       },
     ],
     turmas: [
+      {
+        tipo: "municipal",
+        numero: "01",
+        data: "29 de Outubro de 2026",
+        horario: "13:30",
+        dia: "QUINTA-FEIRA",
+      },
     ],
   },
   ginasticaAvancado: {
@@ -828,6 +894,13 @@ const MODULOS_DATA = {
         atividade: "Pesquisando no Pinterest" },
     ],
     turmas: [
+      {
+        tipo: "municipal",
+        numero: "01",
+        data: "29 de Outubro de 2026",
+        horario: "13:30",
+        dia: "QUINTA-FEIRA",
+      },
     ],
   },
   teatro: {
@@ -1293,24 +1366,10 @@ const MODULOS_DATA = {
     ],
     turmas: [
       {
-        tipo: "itinerante",
+        tipo: "municipal",
         numero: "01",
-        data: "02 de Fevereiro de 2026",
-        horario: "15:30",
-        dia: "TERÇA-FEIRA",
-      },
-      {
-        tipo: "itinerante",
-        numero: "02",
-        data: "17 de Março de 2026",
-        horario: "08:30",
-        dia: "TERÇA-FEIRA",
-      },
-      {
-        tipo: "itinerante",
-        numero: "03",
-        data: "02 de Abril de 2026",
-        horario: "13:30",
+        data: "29 de Outubro de 2026",
+        horario: "10:30",
         dia: "QUINTA-FEIRA",
       },
     ],

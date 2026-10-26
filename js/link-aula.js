@@ -28,7 +28,11 @@ const INSTRUCTOR_DATA = [
         link: "https://meet.google.com/uyc-xcbz-gwh",
       },
       { nome: "Redes Sociais",
-        link: "https://meet.google.com/uyc-xcbz-gwh" },
+        link: "https://meet.google.com/uyc-xcbz-gwh" 
+      },
+      { nome: "Empreendedorismo",
+        link: "https://meet.google.com/uyc-xcbz-gwh" 
+      },
     ],
   },
   {
@@ -153,25 +157,6 @@ const INSTRUCTOR_DATA = [
     ],
   },
   {
-    nome: "Karinny Ferreira",
-    modulos: [
-      {
-        nome: "Ensino das Tecnologias",
-        link: "https://meet.google.com/sii-edgk-gsh",
-      },
-      {
-        nome: "Ensino das Tecnologias - Avançado",
-        link: "https://meet.google.com/sii-edgk-gsh",
-      },
-      { 
-        nome: "Nutrição",
-        link: "https://meet.google.com/sii-edgk-gsh" },
-      { 
-        nome: "Culinária",
-        link: "https://meet.google.com/sii-edgk-gsh" },
-    ],
-  },
-  {
     nome: "Layane Ramos",
     modulos: [
       {
@@ -275,16 +260,17 @@ function gerarMensagem() {
     "Desenvolvimento Cognitivo": "🧠",
     "Redes Sociais": "📱",
     "Educação Financeira": "💰",
-    Culinária: "🍒",
-    Dança: "💃",
-    Nutrição: "🍊",
-    Crochê: "🧶",
+    "Empreendedorismo": "💼",
+    "Culinária": "🍒",
+    "Dança": "💃",
+    "Nutrição": "🍊",
+    "Crochê": "🧶",
     "Desenho e Pintura": "🎨",
     "Cultivo de Plantas": "🪴",
     "Fotografia Digital": "📸",
-    Ginástica: "🏃",
+    "Ginástica": "🏃",
     "Ginástica - Avançado": "🏃",
-    Coral: "🎤",
+    "Coral": "🎤",
     "Ensino das Tecnologias - Avançado": "📱",
     "Desenvolvimento Cognitivo - Avançado": "🧠",
     "Turismo Digital": "🌎",

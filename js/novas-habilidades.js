@@ -8,6 +8,7 @@ let indiceMensagemAtual = 0;
 const EMOJIS = {
   "Redes Sociais": "📱",
   "Educação Financeira": "💰",
+  "Empreendedorismo": "💼",
   "Culinária": "🍒",
   "Dança": "💃",
   "Nutrição": "🍊",
