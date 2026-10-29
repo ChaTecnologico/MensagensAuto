@@ -215,6 +215,15 @@ const INSTRUCTOR_DATA = [
       },
     ],
   },
+  {
+    nome: "Tiago Silva",
+    modulos: [
+      {
+        nome: "Cultivo de Plantas",
+        link: "https://meet.google.com/voe-wmes-efy",
+      },
+    ],
+  },
 ];
 
 // Gerar mensagem
